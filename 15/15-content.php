@@ -29,14 +29,14 @@ $url_path = str_replace('\\', '/', $url_path);
 
         <div id="footwear" class="style-all">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <h3 class="temp">tempus consectetur</h3>
                     <p class="dis">Ac dis vestibulum ut primis eleifend at neque at ornare mus nostra non senectus magna natoque porta scelerisque molestie taciti lobortis torquent ullamcorper a ullamcorper. Hac suspendisse varius ut et consectetur eu in nisi vestibulum consectetur ultricies in dictum consectetur
                         eu hendrerit ante tortor sagittis etiam porta scelerisque molestie ostra non senectus magna natoque .</p>
                     <p class="vesti">Vestibulum volutpat inceptos augue maecenas vehicula curae fringilla ridiculus consectetur tincidunt sit suspendisse rutrum facilisis nibh id ad scelerisque feugiat. Suspendisse habitasse aenean a at enim quis in congue a vestibulum lacinia tortor nam ridiculus. Dictum consectetur eu hendrerit ante tortor
                         sagittis etiam. Hac suspendisse varius ut et consectetur eu porta scelerisque molestie.</p>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <h3 class="temp">find your sizeof</h3>
                     <div>
                         <table>
@@ -140,10 +140,10 @@ $url_path = str_replace('\\', '/', $url_path);
         <!-- shipping -->
         <div id="deliver" class="style-ship">
             <div class="row">
-                <div class="col-lg-3 ">
-                    <img class="img" src="./images/shipping.png" alt="responsive">
+                <div class="col-md-3 ">
+                    <img class="img-responsive" src="./images/shipping.png" alt="responsive">
                 </div>
-                <div class="col-lg-9">
+                <div class="col-md-9">
                     <p class="comm">Vestibulum curae torquent diam diam commodo parturient penatibus nunc dui adipiscing
                         convallis bulum parturient suspendisse parturient a.Parturient in parturient scelerisque nibh lectus quam a natoque adipiscing a vestibulum hendrerit et pharetra fames.Consequat net
                     </p>
