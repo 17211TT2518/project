@@ -13,61 +13,105 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row mule">
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./images/2.png" alt="Card image cap">
+                    <div class="hover">
+                        <img class="card-img-top " src="./images/2.png" alt="responsive">
+                        <div class="overlay">
+                            <img class="card-img-top " src="./images/1.png" alt="responsive">
+                        </div>
+                    </div>
+
                     <div class="card-body">
-                        <a href="#" class="btn btn-brown">Go somewhere</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a class="double" href="#">Backpack double strap</a>
                     </div>
                     <div class="color">
-                        <h5 class="card-title">£12.00-£15.00</h5>
+                        <a id="money" href="#">£10.00</a>
                         <div class="blue"></div>
                         <div class="black"></div>
+                    </div>
 
+                    <div id="buy" class="cart">
+                        <a href="#">
+                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                            <span class="select">Select options</span>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./images/5.png" alt="Card image cap">
+                <div class="hover">
+                        <img class="card-img-top " src="./images/5.png" alt="responsive">
+                        <div class="overlay">
+                            <img class="card-img-top " src="./images/9.png" alt="responsive">
+                        </div>
+                    </div>
                     <div class="card-body">
-                        <a href="#" class="btn btn-brown">Go somewhere</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="double">Basic contrast sneakers</a>
                     </div>
                     <div class="color">
-                        <h5 class="card-title">£10.00</h5>
+                        <a id="money" href="#">£10.00</a>
                         <div class="pink"></div>
                         <div class="brown"></div>
                         <div class="black"></div>
                     </div>
+                    <div class="cart">
+                        <a id="buy" href="#">
+                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                            <span class="select">Select options</span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./images/6.png" alt="Card image cap">
+                <div class="hover">
+                <div class="hover">
+                        <img class="card-img-top " src="./images/6.png" alt="responsive">
+                        <div class="overlay">
+                            <img class="card-img-top " src="./images/7.png" alt="responsive">
+                        </div>
+                    </div>
+                      
+                    </div>
                     <div class="card-body">
-                        <a href="#" class="btn btn-brown">Go somewhere</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="double">Basic knit dress chest</a>
                     </div>
                     <div class="color">
-                        <h5 class="card-title">£10.00</h5>
+                        <a id="money" href="#">£10.00</a>
                         <div class="blue"></div>
                         <div class="green"></div>
                         <div class="yellow"></div>
                         <div class="black"></div>
                     </div>
+                    <div class="cart">
+                        <a id="buy" href="#">
+                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                            <span class="select">Select options</span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./images/4.png" alt="Card image cap">
+                <div class="hover">
+                        <img class="card-img-top " src="./images/4.png" alt="responsive">
+                        <div class="overlay">
+                            <img class="card-img-top " src="./images/3.png" alt="responsive">
+                        </div>
+                    </div>
                     <div class="card-body">
-                        <a href="#" class="btn btn-brown">Go somewhere</a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="double">Basic Korean-style coat</a>
                     </div>
                     <div class="color">
-                        <h5 class="card-title">£219.00</h5>
+                        <a id="money" href="#">£10.00</a>
                         <div class="blue"></div>
                         <div class="brown"></div>
+                    </div>
+                    <div class="cart">
+                        <a id="buy" href="#">
+                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                            <span class="select">Select options</span>
+                        </a>
                     </div>
                 </div>
             </div>

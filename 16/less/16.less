@@ -2,21 +2,39 @@
     .mule{
         margin-top: 50px; 
         
-        .btn{
-            margin-top: 10px;
+        .double{
             color: #2e2c2c;
             font-size: 1.2em;
+           
         }
-        .btn:hover{
+        .double:hover{
             color: #706b6b;
             font-size: 1.2em;
         }
-        .card-title{
-            margin-left: 10px;
-            color: #706b6b;
-            font-size: 1.2em;
-            display: inline-block;
+       
+        #money{          
+                margin-left: 20px;
+                color: #a09a9a;
+                font-size: 1em;
+                display: inline-block;
         }
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height:auto;
+            width: auto;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #ffffff;
+          }
+          
+          .hover:hover .overlay {
+            opacity: 1;     
+          }
+        
         .color{
             position: relative;
             .black{ 
@@ -27,6 +45,7 @@
                 border-radius: 50%;
                 display: inline-block;
                 background: #000000;
+                margin-right: 7px;
             }
             .blue{
                 margin: 7px 0;
@@ -81,12 +100,15 @@
         }
         .card{
             border: none;
-            margin-left: 10px;
-            margin-top: 5px;
+            padding: 10px;
             a{
                 text-decoration: none;
                 font-size: 1.2em;
                 color: #000000;
+            }
+            #buy{
+                margin-left: 20px;
+                visibility: hidden;
             }
         }
     }
