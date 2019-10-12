@@ -7,19 +7,87 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+
 <div class="type-16">
+    <div class="container">
+        <div class="row mule">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-brown">Go somewhere</a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="color">
+                        <h5 class="card-title">£12.00-£15.00</h5>
+                        <div class="blue"></div>
+                        <div class="black"></div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/5.png" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-brown">Go somewhere</a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="color">
+                        <h5 class="card-title">£10.00</h5>
+                        <div class="pink"></div>
+                        <div class="brown"></div>
+                        <div class="black"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/6.png" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-brown">Go somewhere</a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="color">
+                        <h5 class="card-title">£10.00</h5>
+                        <div class="blue"></div>
+                        <div class="green"></div>
+                        <div class="yellow"></div>
+                        <div class="black"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/4.png" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-brown">Go somewhere</a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="color">
+                        <h5 class="card-title">£219.00</h5>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="type-16">
     <div class="container">
         <div class="mule">
             <div class="row">
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <div class="card" style="width: 25rem;">
+                    <div class="card" style="width: 20rem;">
                         <img class="img-responsive" src="./images/2.png" alt="responsive">
                         <div class="card-body">
                             <a href="#" class="btn btn-light">Backpack double strap</a>
                             <div class="color">
                                 <h5 class="card-title">£12.00-£15.00</h5>
+                                  <div class="blue"></div>
                                 <div class="black"></div>
-                                <div class="blue"></div>
+                            
                             </div>
                             <div class="cart">
                             <a href="#">
@@ -32,7 +100,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
 
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <div class="card" style="width: 25rem;">
+                    <div class="card" style="width: 20rem;">
                         <img class="img-responsive" src="./images/5.png" alt="responsive">
                         <div class="card-body">
                             <a href="#" class="btn btn-light">Basic contrast sneakers</a>
@@ -53,7 +121,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
 
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <div class="card" style="width: 25rem;">
+                    <div class="card" style="width: 18rem;">
                         <img class="img-responsive" src="./images/6.png" alt="responsive">
                         <div class="card-body">
                             <a href="#" class="btn btn-light">Basic knit dress chest</a>
@@ -75,7 +143,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
 
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <div class="card" style="width: 25rem;">
+                    <div class="card" style="width: 18rem;">
                         <img class="img-responsive" src="./images/4.png" alt="responsive">
                         <div class="card-body">
                             <a href="#" class="btn btn-light">Basic Korean-style coat</a>
@@ -96,4 +164,4 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
 
         </div>
-    </div>
+    </div> -->

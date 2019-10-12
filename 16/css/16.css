@@ -36,7 +36,7 @@
   height: 15px;
   display: inline-block;
   border-radius: 50%;
-  background: blue;
+  background: #0c98cf;
 }
 .type-16 .mule .color .brown {
   margin: 7px 0;
@@ -56,7 +56,7 @@
   height: 15px;
   display: inline-block;
   border-radius: 50%;
-  background: pink;
+  background: #e28191;
 }
 .type-16 .mule .color .yellow {
   margin: 7px 0;
@@ -78,11 +78,12 @@
   border-radius: 50%;
   background: green;
 }
-.type-16 .mule .cart {
+.type-16 .mule .card {
+  border: none;
   margin-left: 10px;
   margin-top: 5px;
 }
-.type-16 .mule .cart a {
+.type-16 .mule .card a {
   text-decoration: none;
   font-size: 1.2em;
   color: #000000;
