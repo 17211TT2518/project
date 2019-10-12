@@ -1,0 +1,89 @@
+.type-16 .mule {
+  margin-top: 50px;
+}
+.type-16 .mule .btn {
+  margin-top: 10px;
+  color: #2e2c2c;
+  font-size: 1.2em;
+}
+.type-16 .mule .btn:hover {
+  color: #706b6b;
+  font-size: 1.2em;
+}
+.type-16 .mule .card-title {
+  margin-left: 10px;
+  color: #706b6b;
+  font-size: 1.2em;
+  display: inline-block;
+}
+.type-16 .mule .color {
+  position: relative;
+}
+.type-16 .mule .color .black {
+  margin: 7px 0;
+  float: right;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #000000;
+}
+.type-16 .mule .color .blue {
+  margin: 7px 0;
+  float: right;
+  margin-right: 7px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  background: blue;
+}
+.type-16 .mule .color .brown {
+  margin: 7px 0;
+  float: right;
+  margin-right: 7px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #834c04;
+}
+.type-16 .mule .color .pink {
+  margin: 7px 0;
+  float: right;
+  margin-right: 7px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  background: pink;
+}
+.type-16 .mule .color .yellow {
+  margin: 7px 0;
+  float: right;
+  margin-right: 7px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  background: yellow;
+}
+.type-16 .mule .color .green {
+  margin: 7px 0;
+  float: right;
+  margin-right: 7px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  background: green;
+}
+.type-16 .mule .cart {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.type-16 .mule .cart a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #000000;
+}

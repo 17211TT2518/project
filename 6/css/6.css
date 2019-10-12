@@ -1,0 +1,60 @@
+.type-6 .example {
+  margin-top: 20%;
+  font-size: 3.5em;
+  color: #b57b00;
+  line-height: 1;
+  text-align: center;
+  font-family: "Monotype Corsiva";
+  font-style: italic;
+  font-weight: bold;
+}
+.type-6 .shoes {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5em;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  color: #000;
+}
+.type-6 .content {
+  text-align: center;
+  color: #696666;
+  font-size: 1.1em;
+  line-height: 1.6;
+  padding-top: 15px;
+}
+.type-6 .content-two {
+  padding-top: 10px;
+  text-align: center;
+  color: #696666;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+.type-6 .btn {
+  text-transform: uppercase;
+  background: #b57b00;
+  color: #fff;
+  width: 25%;
+  padding: 10px;
+  border-radius: 25px;
+}
+.type-6 .btn-read {
+  text-align: center;
+  padding-top: 20px;
+}
+.type-6 .images {
+  position: relative;
+}
+.type-6 .story {
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  left: 0;
+}
+.type-6 .story-shoes {
+  position: absolute;
+  left: 360px;
+  top: 40px;
+  z-index: 2;
+}

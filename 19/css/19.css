@@ -1,0 +1,78 @@
+.type-19 ul {
+  text-decoration: none;
+  list-style: none;
+}
+.type-19 li.three {
+  display: inline-block;
+  text-decoration: none;
+}
+.type-19 li.three a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 30px 10px;
+}
+.type-19 li.three a:hover {
+  color: #207e81;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 30px 10px;
+  text-decoration: none;
+}
+.type-19 .three-dis {
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.type-19 #sale {
+  visibility: hidden;
+  position: absolute;
+  margin: auto;
+}
+.type-19 #review {
+  visibility: hidden;
+  position: absolute;
+  margin: auto;
+}
+.type-19 #shipping {
+  visibility: hidden;
+  position: absolute;
+  margin: auto;
+}
+.type-19 .ask {
+  margin-top: 40px;
+  border: 5px solid #e7ecec;
+  height: 650px;
+}
+.type-19 .btn {
+  margin-top: 30px;
+  padding: 10px;
+  background: #207e81;
+  color: #ffffff;
+}
+.type-19 .bol {
+  font-weight: bold;
+}
+.type-19 .lorem {
+  line-height: 2;
+  color: #a3a7a7;
+  font-size: 1.2em;
+}
+.type-19 .form-group {
+  margin-top: 30px;
+}
+.type-19 .row {
+  margin-top: 40px;
+  padding: 0 10px;
+}
+.type-19 .clickable {
+  cursor: pointer;
+}
+.type-19 .panel-heading span {
+  margin-top: -20px;
+  font-size: 15px;
+}
+.type-19 .drop {
+  margin-top: 40px;
+}

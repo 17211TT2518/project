@@ -1,0 +1,67 @@
+.type-6 {
+    @align: center;
+    @transform: uppercase;
+    @color: #b57b00;
+    .example{
+        margin-top: 20%;
+        font-size: 3.5em;
+        color: @color;
+        line-height: 1;
+        text-align: @align;
+        font-family: "Monotype Corsiva";
+        font-style: italic;
+        font-weight: bold;
+    }
+    .shoes{
+        margin: 0;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5em;
+        text-align: @align;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: @transform;
+        color: #000;
+    }
+    .content{
+        text-align: @align;
+        color: #696666;
+        font-size: 1.1em;
+        line-height: 1.6;
+        padding-top: 15px;
+    }
+    .content-two{
+        padding-top: 10px;
+        text-align: @align;
+        color: #696666;
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+    .btn{
+        text-transform: @transform;
+        background: @color;
+        color: #fff;
+        width: 25%;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    .btn-read{
+        text-align: @align;
+        padding-top: 20px;
+    }
+    .images{
+        position: relative;
+    }
+    .story{
+        position: absolute;
+        z-index: 1;
+        top: 40px;
+        left: 0;
+    }
+    .story-shoes{
+        position: absolute;
+        left: 360px;
+        top: 40px;
+        z-index: 2; 
+    }
+    
+}
