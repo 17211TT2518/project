@@ -13,10 +13,15 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row mule">
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
-                    <div class="hover">
+                    <div class="picture">
                         <img class="card-img-top " src="./images/2.png" alt="responsive">
                         <div class="overlay">
                             <img class="card-img-top " src="./images/1.png" alt="responsive">
+                            <ul class="icons">
+                                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-refresh" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-search-plus" aria-hidden="true"></i></li>
+                            </ul>
                         </div>
                     </div>
 
@@ -39,7 +44,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
-                <div class="hover">
+                <div class="picture">
                         <img class="card-img-top " src="./images/5.png" alt="responsive">
                         <div class="overlay">
                             <img class="card-img-top " src="./images/9.png" alt="responsive">
@@ -65,7 +70,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
                 <div class="hover">
-                <div class="hover">
+                <div class="picture">
                         <img class="card-img-top " src="./images/6.png" alt="responsive">
                         <div class="overlay">
                             <img class="card-img-top " src="./images/7.png" alt="responsive">
@@ -93,7 +98,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
-                <div class="hover">
+                <div class="picture">
                         <img class="card-img-top " src="./images/4.png" alt="responsive">
                         <div class="overlay">
                             <img class="card-img-top " src="./images/3.png" alt="responsive">

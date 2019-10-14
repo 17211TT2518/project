@@ -10,6 +10,7 @@
   visibility: hidden;
   position: absolute;
   margin: auto;
+  width: 100%;
 }
 .type-15 .style-ship {
   visibility: hidden;

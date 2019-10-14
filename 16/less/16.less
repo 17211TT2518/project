@@ -1,7 +1,9 @@
 .type-16 {
     .mule{
         margin-top: 50px; 
-        
+        .card-body{
+            position: relative;
+        }
         .double{
             color: #2e2c2c;
             font-size: 1.2em;
@@ -29,9 +31,17 @@
             opacity: 0;
             transition: .5s ease;
             background-color: #ffffff;
+            .icons{
+                list-style:none;
+                position: absolute;
+                right: 5px;
+                top: 0;
+                
+                
+            }
           }
           
-          .hover:hover .overlay {
+          .picture:hover .overlay {
             opacity: 1;     
           }
         
@@ -110,6 +120,10 @@
                 margin-left: 20px;
                 visibility: hidden;
             }
+            // .card-img-top{
+            //     width: 93%;
+            //     height: 290px;
+            // }
         }
     }
 
