@@ -11,13 +11,13 @@ $url_path = str_replace('\\', '/', $url_path);
 
     <!-- <div class="three-dis">
             <ul>
-                <li class="three">
+                <li>
                     <a href="#" id="des">Description</a>
                 </li>
-                <li class="three">
+                <li>
                     <a href="#" id="rev">Reviews(0)</a>
                 </li>
-                <li class="three">
+                <li>
                     <a href="#" id="ship">Shipping & Delivery</a>
                 </li>
             </ul>
@@ -118,6 +118,7 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
 
     <!-- reviews -->
+
 
     <div id="review" class="style-rev">
         <div class="row">
