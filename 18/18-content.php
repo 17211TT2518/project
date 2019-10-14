@@ -8,12 +8,12 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-18">
-    <div class="container theme">
+    <div class="container-fluid theme">
         <div class="row temp">
-            <div class="col-sm-12 col-md-6 men">
-                <img src="./images/about.png" alt="responsive" class="img-responsive">
+            <div class="col-md-6 men">
+                <img src="./images/about.png" alt="responsive" style="width: 100%; height: 100%;" class="img-responsive">
             </div>
-            <div class="col-sm-12 col-md-6 content">
+            <div class="col-md-6 content">
                 <h1 class="lobor">
                     consectetur lobortis meacenas risus mi lacus cond consequat.
                 </h1>
