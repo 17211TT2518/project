@@ -33,10 +33,10 @@
 .type-16 .mule .overlay .icons {
   list-style: none;
   position: absolute;
-  right: 5px;
+  right: 10px;
   top: 0;
 }
-.type-16 .mule .picture:hover .overlay {
+.type-16 .mule .card:hover .overlay {
   opacity: 1;
 }
 .type-16 .mule .color {

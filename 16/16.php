@@ -35,6 +35,6 @@ $less->compileFile('less/16.less', 'css/16.css');
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
 <body>
 <?php include '16-content.php'; ?>
-<script src="<?php echo $url_path ?>/js/16.js"></script>
+<!-- <script src="<?php //echo $url_path ?>/js/16.js"></script> -->
 </body>
 </html>

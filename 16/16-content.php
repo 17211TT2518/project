@@ -12,7 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row mule">
             <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem; z-index: 400;">
                     <div class="picture">
                         <img class="card-img-top " src="./images/2.png" alt="responsive">
                         <div class="overlay">
@@ -32,13 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <a id="money" href="#">£10.00</a>
                         <div class="blue"></div>
                         <div class="black"></div>
-                    </div>
-
-                    <div id="buy" class="cart">
-                        <a href="#">
-                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
-                            <span class="select">Select options</span>
-                        </a>
+                        <div><a href="#" style="position: absolute; z-index: 200;"><i class="fa fa-heart-o" aria-hidden="true"></i>select option</a></div>
                     </div>
                 </div>
             </div>
@@ -48,6 +42,11 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img class="card-img-top " src="./images/5.png" alt="responsive">
                         <div class="overlay">
                             <img class="card-img-top " src="./images/9.png" alt="responsive">
+                            <ul class="icons">
+                                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-refresh" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-search-plus" aria-hidden="true"></i></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="card-body">
@@ -59,12 +58,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="brown"></div>
                         <div class="black"></div>
                     </div>
-                    <div class="cart">
-                        <a id="buy" href="#">
-                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
-                            <span class="select">Select options</span>
-                        </a>
-                    </div>
+
                 </div>
             </div>
             <div class="col-md-3">
@@ -74,6 +68,11 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img class="card-img-top " src="./images/6.png" alt="responsive">
                         <div class="overlay">
                             <img class="card-img-top " src="./images/7.png" alt="responsive">
+                            <ul class="icons">
+                                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-refresh" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-search-plus" aria-hidden="true"></i></li>
+                            </ul>
                         </div>
                     </div>
                       
@@ -88,12 +87,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="yellow"></div>
                         <div class="black"></div>
                     </div>
-                    <div class="cart">
-                        <a id="buy" href="#">
-                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
-                            <span class="select">Select options</span>
-                        </a>
-                    </div>
+  
                 </div>
             </div>
             <div class="col-md-3">
@@ -102,6 +96,11 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img class="card-img-top " src="./images/4.png" alt="responsive">
                         <div class="overlay">
                             <img class="card-img-top " src="./images/3.png" alt="responsive">
+                            <ul class="icons">
+                                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-refresh" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-search-plus" aria-hidden="true"></i></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="card-body">
@@ -112,12 +111,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="blue"></div>
                         <div class="brown"></div>
                     </div>
-                    <div class="cart">
-                        <a id="buy" href="#">
-                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
-                            <span class="select">Select options</span>
-                        </a>
-                    </div>
+
                 </div>
             </div>
         </div>
