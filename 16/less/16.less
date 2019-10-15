@@ -1,133 +1,158 @@
 .type-16 {
-    .mule{
-        margin-top: 50px; 
-        .card-body{
-            position: relative;
-        }
-        .double{
-            color: #2e2c2c;
-            font-size: 1.2em;
-           
-        }
-        .double:hover{
-            color: #706b6b;
-            font-size: 1.2em;
-        }
-       
-        #money{          
-                margin-left: 20px;
-                color: #a09a9a;
-                font-size: 1em;
-                display: inline-block;
-        }
-        .overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height:auto;
-            width: auto;
-            opacity: 0;
-            transition: .5s ease;
-            background-color: #ffffff;
-            .icons{
-                list-style:none;
-                position: absolute;
-                right: 10px;
-                top: 0;
+    .sm {
+        margin-top: 50px;
 
-            }
-          }
-          
-          .card:hover{
-              
-            .overlay {
-                opacity: 1;   
-              }
-          }
-          
-        
-        .color{
-            position: relative;
-            .black{ 
-                margin: 7px 0;
-                float: right;
-                width: 15px;
-                height: 15px;
-                border-radius: 50%;
-                display: inline-block;
-                background: #000000;
-                margin-right: 7px;
-            }
-            .blue{
-                margin: 7px 0;
-                float: right;
-                margin-right: 7px;
-                width: 15px;
-                height: 15px;
-                display: inline-block;
-                border-radius: 50%;
-                background: rgb(12, 152, 207);
-            }
-            .brown{
-                margin: 7px 0;
-                float: right;
-                margin-right: 7px;
-                width: 15px;
-                height: 15px;
-                display: inline-block;
-                border-radius: 50%;
-                background: rgb(131, 76, 4);
-            }
-            .pink{
-                margin: 7px 0;
-                float: right;
-                margin-right: 7px;
-                width: 15px;
-                height: 15px;
-                display: inline-block;
-                border-radius: 50%;
-                background: rgb(226, 129, 145);
-            }
-            .yellow{
-                margin: 7px 0;
-                float: right;
-                margin-right: 7px;
-                width: 15px;
-                height: 15px;
-                display: inline-block;
-                border-radius: 50%;
-                background: yellow;
-            }
-            .green{
-                margin: 7px 0;
-                float: right;
-                margin-right: 7px;
-                width: 15px;
-                height: 15px;
-                display: inline-block;
-                border-radius: 50%;
-                background: green;
-            }
-        }
-        .card{
+        .card-product {
             border: none;
-            padding: 10px;
-            a{
-                text-decoration: none;
-                font-size: 1.2em;
-                color: #000000;
+
+            .img-wrap {
+                height: unset;
+
+                .hover-img {
+                    position: absolute;
+                    top: 0;
+                    .font-awe{
+                        right: 0;
+                        top: 0;
+                        color: #000;
+                    }
+                }
             }
-            #buy{
-                margin-left: 20px;
-                visibility: hidden;
+
+            .info-wrap {
+                padding-left: 0;
+                padding-bottom: 0;
+                font-size: 17px;
+
+                .title {
+                    font-family: "Times New Roman", Times, serif;
+                    color: #000;
+                    border-bottom: 1px solid rgba(0, 0, 0, .1);
+                }
+
+                .black {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background: #000;
+                    display: inline-block;
+                    float: right;
+                    margin-top: 7px;
+                }
+
+                .blue {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background: #1890b1;
+                    display: inline-block;
+                    float: right;
+                    margin-top: 7px;
+                    margin-right: 5px;
+                }
+
+                .brown {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background: #af7b0c;
+                    display: inline-block;
+                    float: right;
+                    margin-top: 7px;
+                    margin-right: 5px;
+                }
+
+                .red {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background: #dd062a;
+                    display: inline-block;
+                    float: right;
+                    margin-top: 7px;
+                    margin-right: 5px;
+                }
+
+                .yellow {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background: #f4f80c;
+                    display: inline-block;
+                    float: right;
+                    margin-top: 7px;
+                    margin-right: 5px;
+                }
+
+                .green {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background: #08a73d;
+                    display: inline-block;
+                    float: right;
+                    margin-top: 7px;
+                    margin-right: 5px;
+                }
+
+                .price-wrap {
+                    color: #949494;
+                    margin-top: 10px;
+
+                }
+
+                .wrap-swap {
+                    overflow: hidden;
+                    height: 32px;
+                    line-height: 32px;
+                    transition: all .2s ease-in-out;
+                }
+
+                .price-new {
+                    margin-bottom: 0;
+                    height: 32px;
+                    line-height: 32px;
+                    text-align: left;
+                    margin-bottom: 10px;
+                    overflow: hidden;
+                    position: relative;
+                    display: block;
+                    transition: all .5s;
+                }
+
+                .select-option {
+                    height: 32px;
+                    line-height: 32px;
+                    transition: all .5s;
+                    padding-left: 0;
+                }
+
+                .select-option a {
+                    position: relative;
+                    background-color: transparent;
+                    border: none;
+                    padding: 0;
+                    padding-left: 0;
+                    color: #000;
+                    white-space: nowrap;
+                    font-weight: 600;
+                    text-transform: none;
+                    font-size: 16px;
+                }
             }
-            // .card-img-top{
-            //     width: 93%;
-            //     height: 290px;
-            // }
         }
     }
 
+    .card-product .img-wrap:hover .hover-img {
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .card-product:hover .price-new {
+        height: 0;
+    }
+
+    .card-product:hover .select-option {
+        line-height: 0px;
+    }
 }

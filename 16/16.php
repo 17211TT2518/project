@@ -28,6 +28,7 @@ $less->compileFile('less/16.less', 'css/16.css');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/ui.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/16.css" rel="stylesheet" type="text/css" />
 
@@ -35,6 +36,6 @@ $less->compileFile('less/16.less', 'css/16.css');
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
 <body>
 <?php include '16-content.php'; ?>
-<!-- <script src="<?php //echo $url_path ?>/js/16.js"></script> -->
+
 </body>
 </html>
