@@ -9,8 +9,8 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-18">
     <div class="container-fluid theme">
-        <div class="row temp">
-            <div class="col-md-6 men">
+        <div class="row">
+            <div class="col-md-6">
                 <img src="./images/about.png" alt="responsive" style="width: 100%; height: 100%;" class="img-responsive">
             </div>
             <div class="col-md-6 content">

@@ -1,10 +1,10 @@
 .type-18 .theme {
   width: 100%;
 }
-.type-18 .content {
+.type-18 .theme .content {
   margin-top: 70px;
 }
-.type-18 .content .lobor {
+.type-18 .theme .content .lobor {
   padding-top: 45px;
   text-transform: capitalize;
   text-align: center;
@@ -13,7 +13,7 @@
   font-size: 2em;
   line-height: 1.2;
 }
-.type-18 .content .varius {
+.type-18 .theme .content .varius {
   padding-top: 25px;
   color: #807b7b;
   font-size: 1.2em;
@@ -21,11 +21,11 @@
   line-height: 1.5;
   font-family: "Consolas";
 }
-.type-18 .content .all-icon {
+.type-18 .theme .content .all-icon {
   margin-top: 7%;
   margin-left: 22%;
 }
-.type-18 .content #icon {
+.type-18 .theme .content #icon {
   font-size: 1.2em;
   margin-left: 3%;
   padding: 15px;
@@ -33,7 +33,7 @@
   border-radius: 50%;
   background: #eceaea;
 }
-.type-18 .content #icon:hover {
+.type-18 .theme .content #icon:hover {
   font-size: 1.2em;
   margin-left: 3%;
   padding: 15px;
