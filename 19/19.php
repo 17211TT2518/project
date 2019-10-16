@@ -35,7 +35,7 @@ $less->compileFile('less/19.less', 'css/19.css');
 <body>
     <?php include '19-content.php'; ?>
     <script src="<?php echo $url_path ?>/js/19.js"></script>
-    <script src="<?php echo $url_path ?>/js/event.js"></script>
+   
 </body>
 
 </html>

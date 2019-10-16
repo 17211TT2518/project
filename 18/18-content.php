@@ -8,7 +8,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-18">
-    <div class="container-fluid theme">
+    <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <img src="./images/about.png" alt="responsive" style="width: 100%; height: 100%;" class="img-responsive">
@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     Suspendisse leo sodales varius leo elementum vestibulum a elit at ultrices a mi a praesent enim libero ultrices a amet suscipit. A tempus iaculis habitasse suspendisse
                     aenean parturient blandit a rutrum leo elementum purus a a et id non feugiat donec.
                 </p>
-                <img src="./images/austen.png" alt="responsive" class="img-responsive" style="padding-left: 40%; padding-top: 5%;">
+                <img src="./images/austen.png" alt="responsive" class="img-responsive logo">
                 <div class="all-icon">
                     <a href="#"><i id="icon" class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href="#"><i id="icon" class="fa fa-twitter" aria-hidden="true"></i></a>

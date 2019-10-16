@@ -46,7 +46,7 @@
   border-radius: 25px;
 }
 @media only screen and (max-width: 575px) {
-  .type-6 .all-content .pictures {
+  .type-6 .pictures {
     margin-top: 50%;
   }
 }

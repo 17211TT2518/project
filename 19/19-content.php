@@ -27,16 +27,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                         </ul>
                     </div>
-                    
+                    <button data-toggle="collapse" data-target="#demo">Collapsible</button>
 
-  <h2>Simple Collapsible</h2>
-  <a href="#demo" class="btn btn-primary" data-toggle="collapse">Simple collapsible</a>
-  <div id="demo" class="collapse">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </div>
-
+                    <div id="demo" class="collapse">
+                        Lorem ipsum dolor text....
+                    </div>
                 </div>
 
                 <div class="col-md-6 ask">
