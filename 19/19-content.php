@@ -8,35 +8,380 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-19">
-    <div class="container collas">
-
+    <div class="container">
         <!-- SALE -->
-        <div id="sale">
-            <div class="row">
-                <div class="col-md-6 drop">
-                    <div class="three-dis">
-                        <ul>
-                            <li class="three">
-                                <a href="#" id="des">sale/</a>
-                            </li>
-                            <li class="three">
-                                <a href="#" id="rev">terms & conditions/</a>
-                            </li>
-                            <li class="three">
-                                <a href="#" id="ship">privacy policy</a>
-                            </li>
-                        </ul>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="nav question">
+                    <li><a data-toggle="pill" href="#menu1">SALE</a></li>
+                    <li><a data-toggle="pill" href="#menu2">TERMS & CONDITIONS</a></li>
+                    <li><a data-toggle="pill" href="#menu3">PRIVACY POLICY</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="menu1" class="tab-pane fade in active">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse1">I haven't received my item. What can
+                                            I do?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse2">Ipsum ac erat cursus rutrum parturient a a nostra?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse3">Tellus ridiculus non tempus laoreet
+                                            nec diam eleifend id ullamcorper?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse4">Ad a dui a lacinia nec nec non volutpat?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse5">Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse6">Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button data-toggle="collapse" data-target="#demo">Collapsible</button>
-
-                    <div id="demo" class="collapse">
-                        Lorem ipsum dolor text....
+                    <div id="menu2" class="tab-pane fade ">
+                    <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse1">I haven't received my item. What can
+                                            I do?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse2">Ipsum ac erat cursus rutrum parturient a a nostra?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse3">Tellus ridiculus non tempus laoreet
+                                            nec diam eleifend id ullamcorper?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse4">Ad a dui a lacinia nec nec non volutpat?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse5">Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse6">Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu3" class="tab-pane fade">
+                    <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse1">I haven't received my item. What can
+                                            I do?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse2">Ipsum ac erat cursus rutrum parturient a a nostra?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse3">Tellus ridiculus non tempus laoreet
+                                            nec diam eleifend id ullamcorper?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse4">Ad a dui a lacinia nec nec non volutpat?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse5">Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapse6">Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                        <p> Sed primis eu conubia erat ut nam vitae a habitant dui
+                                        adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
+                                        morbi montes ut sem scelerisque in litora id scelerisque consectetur eget cras
+                                        hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                        <p>Non vivamus enim himenaeos porta id morbi montes ut sem scelerisque in litora id 
+                                        scelerisque consectetur eget cras hac nascetur sociis in feugiat mi platea odio pretium ullamcorper.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-md-6 ask">
+            </div>
+            <div class="col-md-6">
+                <div class="ask">
                     <h3 class="bol">Ask a Question</h3>
-                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab neque fugiat ea a repellat similique, tempora molestias id assumenda commodi?
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab neque fugiat ea a
+                        repellat similique, tempora molestias id assumenda commodi?
                         Dolores aspernatur ex omnis, quas pariatur eveniet unde voluptates iusto!</p>
                     <div class="form-group ">
                         <label for="exampleInputEmail1">Your Name(required)</label>
@@ -50,5 +395,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
+
     </div>
 </div>
