@@ -21,18 +21,15 @@ $url_path = str_replace('\\', '/', $url_path);
                     <button type="button" class="btn">read more</button>
                 </div>
             </div>
-            <div class="col-md-6 images">
-                <div class="container">
-                <div class="row pictures">
-                    <div class="col-sm-6">
-                        <img src="./images/shoes-story-1" alt="responsive" class="img-responsive" width="100%" height="100%">
+            <div class="col-md-6 images-two">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./images/shoes-story-1" alt="responsive" class="img-responsive" style="width: 292.5px; height: 337.5px;" >
                     </div>
-                    <div class="col-sm-6">
-                        <img src="./images/shoes-story-2" alt="responsive"class="img-responsive" width="100%" height="100%">
+                    <div class="col-md-6">
+                        <img src="./images/shoes-story-2" alt="responsive"class="img-responsive" style="width: 292.5px; height: 337.5px;" >
                     </div>
-                </div>
-                </div>
-               
+                </div>      
             </div>
         </div>
     </div>

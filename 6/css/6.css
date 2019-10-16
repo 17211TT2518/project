@@ -45,8 +45,12 @@
   padding: 10px 20px;
   border-radius: 25px;
 }
-@media only screen and (max-width: 575px) {
-  .type-6 .pictures {
-    margin-top: 50%;
+@media (min-width: 500px) {
+  .type-6 .images-two {
+    margin-top: 10px;
+  }
+  .type-6 .images-two img {
+    width: 100% !important;
+    padding: 10px;
   }
 }
