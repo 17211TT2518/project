@@ -16,8 +16,7 @@
   font-size: 2em;
 }
 .type-15 .collas .navbar-default .navbar-nav li a:hover {
-  background: #F1F1F1;
-  color: #333;
+  color: #0ba886;
   font-size: 2em;
 }
 .type-15 .collas .style-all {
@@ -79,8 +78,9 @@
   background: #eceaea;
 }
 .type-15 .collas .style-rev .condimen .btn-sub {
-  background: #fff;
-  border: 1px solid #131212;
+  background: #0ba886;
+  border: 1px solid #d1cbcb;
+  color: #fff;
   width: 20%;
   height: 40px;
 }

@@ -19,18 +19,14 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
 
         <div class="row">
-            <div class="col-md-6">
-
+            <div class="col-md-6 left">
                 <h3 class="bill">billing details</h3>
-                <div class="col-sm-6">
-                    <div class="form-group">
+                <div class="form-group">
                         <p for="first-name">First name
                             <span class="icon">*</span>
                         </p>
                         <input type="name" class="form-control" id="first-name" placeholder="Enter first name...">
                     </div>
-                </div>
-                <div class="col-sm-6">
                     <div class="form-group">
                         <p for="first-name">
                             Last name
@@ -38,7 +34,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         </p>
                         <input type="name" class="form-control" id="last-name" placeholder="Enter last name...">
                     </div>
-                </div>
                 <div class="form-group">
                     <p for="company">
                         Company name (optional)
