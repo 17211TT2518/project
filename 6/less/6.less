@@ -1,71 +1,186 @@
 .type-6 {
-    @align: center;
-    @transform: uppercase;
-    @color: #b57b00;
+  @align: center;
+  @transform: uppercase;
+  @color: #b57b00;
 
-    .all-content {
-        margin-top: 15%;
+  .all-content {
+    margin-top: 10%;
 
-        .example {
-            font-size: 3.5em;
-            color: @color;
-            line-height: 1;
-            text-align: @align;
-            font-family: "Monotype Corsiva";
-            font-style: italic;
-            font-weight: bold;
-        }
+    .example {
+      font-size: 3.5em;
+      color: @color;
+      line-height: 1;
+      text-align: @align;
+      font-family: "Monotype Corsiva";
+      font-style: italic;
+      font-weight: bold;
+    }
 
-        .shoes {
-            margin: 0;
-            text-align: center;
-            font-weight: bold;
-            font-size: 3.5em;
-            text-align: @align;
-            font-family: 'Times New Roman', Times, serif;
-            text-transform: @transform;
-            color: #000;
-        }
+    .shoes {
+      margin: 0;
+      text-align: center;
+      font-weight: bold;
+      font-size: 3.5em;
+      text-align: @align;
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: @transform;
+      color: #000;
+    }
 
-        .content {
-            text-align: @align;
-            color: #696666;
-            font-size: 1.1em;
-            line-height: 1.6;
-            padding-top: 15px;
-        }
+    .content {
+      text-align: @align;
+      color: #696666;
+      font-size: 1.1em;
+      line-height: 1.6;
+      padding-top: 15px;
+    }
 
-        .content-two {
-            padding-top: 10px;
-            text-align: @align;
-            color: #696666;
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
+    .content-two {
+      padding-top: 10px;
+      text-align: @align;
+      color: #696666;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
 
-        .btn-read {
-            text-align: @align;
-            padding-top: 20px;
+    .btn-read {
+      text-align: @align;
+      padding-top: 20px;
 
-            .btn {
-                text-transform: @transform;
-                background: @color;
-                color: #fff;
-                width: auto;
-                padding: 10px 20px;
-                border-radius: 25px;
-            }
-        }
+      .btn {
+        text-transform: @transform;
+        background: @color;
+        color: #fff;
+        width: auto;
+        padding: 10px 20px;
+        border-radius: 25px;
+      }
+    }
+
+    .images-two {
+      position: relative;
+
+      .shoes-left {
+        position: absolute;
+        left: 0px;
+        width: 275px;
+        height: 353px;
+      }
+
+      .shoes-right {
+        position: absolute;
+        //left: 275px;
+        width: 275px;
+        height: 353px;
+        //margin-left: 20px;
+      }
+    }
+  }
+
+  @media (min-width: 500px) {
+    .images-two {
+      margin-top: 10px;
+
+      img {
+        width: 100% !important;
+        padding: 10px;
+    }
+  }
+
+  //full screen
+    #myImg {
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
     }
   
-@media (min-width: 500px) {
-    .images-two{
-        margin-top: 10px;
-        img {
-            width: 100%!important;
-            padding: 10px;
-        }
+    #myImg:hover {
+      opacity: 0.7;
     }
-    
-  }
+  
+    /* The Modal (background) */
+    .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      padding: 50px 0;
+      /* Location of the box */
+      left: 0%;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      //background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: #000000;
+      /* Black w/ opacity */
+    }
+  
+    /* Modal Content (Image) */
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 35%;
+      max-width: 700px;
+    }
+  
+    /* Caption of Modal Image (Image Text) - Same Width as the Image */
+    #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+  
+    /* Add Animation - Zoom in the Modal */
+    .modal-content,
+    #caption {
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+  
+    @keyframes zoom {
+      from {
+        transform: scale(0)
+      }
+  
+      to {
+        transform: scale(1)
+      }
+    }
+  
+    /* The Close Button */
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+  
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px) {
+      .modal-content {
+        width: 100%;
+      }
+    }
 }
