@@ -30,22 +30,49 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img id="myShoes" src="./images/shoes-story-2.png" class="img-responsive shoes-right" alt="responsive">
                     </div>
                 </div>
-            
             </div>
+           
         </div>
         <div id="myModal" class="modal">
             <!-- The Close Button -->
             <span class="close">&times;</span>
 
             <!-- Modal Content (The Image) -->
-            <img class="modal-content" id="img01">
+            <img class="modal-content">
+            <div class="swiper-container"  id="img01">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                    <img  src="./images/shoes-story-1.png" class="img-responsive shoes-left" alt="responsive">
+                    </div>
+                    <div class="swiper-slide">
+                    <img  src="./images/shoes-story-2.png" class="img-responsive shoes-right" alt="responsive">
+                    </div>    
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </div>
         <div id="myModal-2" class="modal">
             <!-- The Close Button -->
             <span class="close">&times;</span>
 
             <!-- Modal Content (The Image) -->
-            <img class="modal-content" id="img02">
+            <img class="modal-content">
+            <div class="swiper-container" id="img02">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                    <img  src="./images/shoes-story-2.png" class="img-responsive shoes-right" alt="responsive">
+                    </div>
+                    <div class="swiper-slide">
+                    <img  src="./images/shoes-story-1.png" class="img-responsive shoes-left" alt="responsive">
+                    </div>    
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
         </div>
     </div>
-  </div>
+
+
+
+</div>
