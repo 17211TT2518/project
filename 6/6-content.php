@@ -23,10 +23,10 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-6 images-two">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 sh-left">
                         <img id="myImg" src="./images/shoes-story-1.png" class="img-responsive shoes-left" alt="responsive">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 sh-right">
                         <img id="myShoes" src="./images/shoes-story-2.png" class="img-responsive shoes-right" alt="responsive">
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-
+$(document).ready(function (){
   //img-left
   var modal = document.getElementById("myModal");
   var img = document.getElementById("myImg");
@@ -7,10 +7,11 @@
     modal.style.display = "block";
     modalImg.src = this.src;
   }
-  var span = document.getElementsByClassName("close")[0];
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
+  $('.close').click(function(){
+    $('#myModal').css('display', 'none');
+    $('#myModal-2').css('display', 'none');
+  });
+    
 
   //img-right
   var modalRight = document.getElementById("myModal-2");
@@ -24,7 +25,7 @@
   span.onclick = function() {
     modalRight.style.display = "none";
   }
-
+});
 
 
 
