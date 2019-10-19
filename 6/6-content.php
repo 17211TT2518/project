@@ -27,22 +27,25 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img id="myImg" src="./images/shoes-story-1.png" class="img-responsive shoes-left" alt="responsive">
                     </div>
                     <div class="col-md-6">
-                        <img id="myImg" src="./images/shoes-story-2.png" class="img-responsive shoes-right" alt="responsive">
+                        <img id="myShoes" src="./images/shoes-story-2.png" class="img-responsive shoes-right" alt="responsive">
                     </div>
                 </div>
             
             </div>
         </div>
         <div id="myModal" class="modal">
-
             <!-- The Close Button -->
             <span class="close">&times;</span>
 
             <!-- Modal Content (The Image) -->
             <img class="modal-content" id="img01">
+        </div>
+        <div id="myModal-2" class="modal">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
 
-          
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img02">
         </div>
     </div>
-
   </div>

@@ -59,21 +59,20 @@
   width: 275px;
   height: 353px;
 }
-@media (min-width: 500px) {
-  .type-6 .images-two {
-    margin-top: 10px;
-  }
-  .type-6 .images-two img {
-    width: 100% !important;
-    padding: 10px;
-  }
-}
 .type-6 #myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 .type-6 #myImg:hover {
+  opacity: 0.7;
+}
+.type-6 #myShoes {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.type-6 #myShoes:hover {
   opacity: 0.7;
 }
 .type-6 .modal {
