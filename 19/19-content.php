@@ -86,7 +86,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <a data-toggle="collapse" href="#collapse4">Ad a dui a lacinia nec nec non volutpat?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse4" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -105,7 +105,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <a data-toggle="collapse" href="#collapse5">Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse5" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -124,7 +124,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <a data-toggle="collapse" href="#collapse6">Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse6" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -142,11 +142,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse1">I haven't received my item. What can
+                                        <a data-toggle="collapse" href="#collapse7">Do you understand. What can
                                             I do?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse1" class="panel-collapse collapse in">
+                                <div id="collapse7" class="panel-collapse collapse in">
                                     <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -163,10 +163,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse2">Ipsum ac erat cursus rutrum parturient a a nostra?</a>
+                                        <a data-toggle="collapse" href="#collapse8">Ipsum ac erat cursus rutrum parturient a a nostra?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse2" class="panel-collapse collapse">
+                                <div id="collapse8" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -182,11 +182,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse3">Tellus ridiculus non tempus laoreet
+                                        <a data-toggle="collapse" href="#collapse9">Tellus ridiculus non tempus laoreet
                                             nec diam eleifend id ullamcorper?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse9" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -202,10 +202,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse4">Ad a dui a lacinia nec nec non volutpat?</a>
+                                        <a data-toggle="collapse" href="#collapse10">Ad a dui a lacinia nec nec non volutpat?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse10" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -221,10 +221,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse5">Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?</a>
+                                        <a data-toggle="collapse" href="#collapse11">Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse11" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -240,10 +240,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse6">Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?</a>
+                                        <a data-toggle="collapse" href="#collapse12">Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse12" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -261,11 +261,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse1">I haven't received my item. What can
+                                        <a data-toggle="collapse" href="#collapse13">I don't know. What can
                                             I do?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse1" class="panel-collapse collapse in">
+                                <div id="collapse13" class="panel-collapse collapse in">
                                     <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -282,10 +282,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse2">Ipsum ac erat cursus rutrum parturient a a nostra?</a>
+                                        <a data-toggle="collapse" href="#collapse14">Ipsum ac erat cursus rutrum parturient a a nostra?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse2" class="panel-collapse collapse">
+                                <div id="collapse14" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -301,11 +301,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse3">Tellus ridiculus non tempus laoreet
+                                        <a data-toggle="collapse" href="#collapse15">Tellus ridiculus non tempus laoreet
                                             nec diam eleifend id ullamcorper?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse15" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -321,10 +321,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse4">Ad a dui a lacinia nec nec non volutpat?</a>
+                                        <a data-toggle="collapse" href="#collapse16">Ad a dui a lacinia nec nec non volutpat?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse16" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -340,10 +340,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse5">Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?</a>
+                                        <a data-toggle="collapse" href="#collapse17">Dui nisi in cum augue adipiscing nibh taciti mollis condimentum risus?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse17" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id
@@ -359,10 +359,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse6">Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?</a>
+                                        <a data-toggle="collapse" href="#collapse18">Tellus ridiculus non tempus laoreet nec diam eleifend id ullamcorper?</a>
                                     </h4>
                                 </div>
-                                <div id="collapse3" class="panel-collapse collapse">
+                                <div id="collapse18" class="panel-collapse collapse">
                                 <div class="panel-body">
                                         <p> Sed primis eu conubia erat ut nam vitae a habitant dui
                                         adipiscing a dignissim eu a ad venenatis. Non vivamus enim himenaeos porta id

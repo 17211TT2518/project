@@ -10,7 +10,7 @@
   font-weight: bold;
 }
 .type-19 .question li a:hover {
-  color: #68BDB9;
+  color: seagreen;
 }
 .type-19 .question li a::after {
   content: "";
@@ -31,6 +31,9 @@
 }
 .type-19 .tab-content a {
   text-decoration: none;
+}
+.type-19 .tab-content a:hover {
+  color: seagreen;
 }
 .type-19 .ask {
   margin-top: 30px;
