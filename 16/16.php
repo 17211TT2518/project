@@ -27,13 +27,13 @@ $less->compileFile('less/16.less', 'css/16.css');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="<?php echo $url_path ?>/css/bootstrap.min-v3.3.5.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo $url_path ?>/css/ui.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/bootstrap-ecommerce.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/16.css" rel="stylesheet" type="text/css" />
 
     <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
 <body>
 <?php include '16-content.php'; ?>
 
