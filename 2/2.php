@@ -22,16 +22,16 @@
     <title>2</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
-	<link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
 	<link href="<?php echo $url_path ?>/css/2.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <?php include './2-content.php'; ?>
 	<script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-	<script src="<?php echo $url_path ?>/js/jquery.js"></script>
+	<script src="<?php echo $url_path ?>/js/2.js"></script>
 </body>
 
 </html>

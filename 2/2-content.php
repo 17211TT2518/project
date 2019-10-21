@@ -13,35 +13,43 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="text">
-                        <h2>This is custom styles</h2>
-                        <h1>Men Styles</h1>
-                        <a href="#" class="btn-more">READ MORE</a>
-                        <a href="#" class="btn-cart">ADD TO CART</a>
+                        <h2 class="fadeInRight">This is custom styles</h2>
+                        <h1 class="fadeInLeft">Men Styles</h1>
+                        <div class="fadeInUp">
+                            <a href="#" class="btn-more">READ MORE</a>
+                            <a href="#" class="btn-cart">ADD TO CART</a>
+                        </div>
+
                     </div>
                     <img src="./images/slide-7-s.png" alt="">
                 </div>
                 <div class="swiper-slide">
                     <div class="text">
-                        <h2>This is custom styles</h2>
-                        <h1>Men Styles</h1>
-                        <a href="#" class="btn-more">READ MORE</a>
-                        <a href="#" class="btn-cart">ADD TO CART</a>
+                        <h2 class="fadeInRight">This is custom styles</h2>
+                        <h1 class="fadeInLeft">Men Styles</h1>
+                        <div class="fadeInUp">
+                            <a href="#" class="btn-more">READ MORE</a>
+                            <a href="#" class="btn-cart">ADD TO CART</a>
+                        </div>
                     </div>
                     <img src="./images/slide-10-s.png" alt="">
                 </div>
                 <div class="swiper-slide">
                     <div class="text">
-                        <h2>This is custom styles</h2>
-                        <h1>Men Styles</h1>
-                        <a href="#" class="btn-more">READ MORE</a>
-                        <a href="#" class="btn-cart">ADD TO CART</a>
+                        <h2 class="fadeInRight">This is custom styles</h2>
+                        <h1 class="fadeInLeft">Men Styles</h1>
+                        <div class="fadeInUp">
+                            <a href="#" class="btn-more">READ MORE</a>
+                            <a href="#" class="btn-cart">ADD TO CART</a>
+                        </div>
                     </div>
                     <img src="./images/slide-15-s.png" alt="">
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
             <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next" style="color: #B57B00;"></div>
+            <div class="swiper-button-prev" style="color: #B57B00;"></div>
         </div>
     </div>
 </div>
