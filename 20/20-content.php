@@ -137,7 +137,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <th class="pro-name">
                                     Shipping
                                 </th>
-                                <td class="pro-name">
+                                <td>
                                     <div class="form-check">
                                         <p class="form-check-label">
                                             <input type="radio" class="form-check-input" name="optradio">&nbsp;&nbsp;Flat Rate:£12.00
@@ -148,16 +148,16 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <input type="radio" class="form-check-input" name="optradio">&nbsp;&nbsp;Free Shipping
                                         </p>
                                     </div>
-                                    <div class="form-check">
+                                    <div class="form-check local">
                                         <p class="form-check-label">
                                             <input type="radio" class="form-check-input" name="optradio">&nbsp;&nbsp;Local Delivery </p>
                                     </div>
                                 </td>
                             </tr>
 
-                            <tr>
+                            <tr class="total">
                                 <th class="pro-name">
-                                    <p class="tol"> TOTAL</p>
+                                    <p> TOTAL</p>
                                 </th>
                                 <td class="pro-name">
                                     <span class="sys">£579.00</span>

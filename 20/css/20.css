@@ -48,6 +48,12 @@
 .type-20 .left .form-note {
   margin-top: 20px;
 }
+.type-20 tr {
+  border-bottom: 1px solid #d8cdcd;
+}
+.type-20 .total {
+  border: none;
+}
 .type-20 .right {
   height: auto;
   background: #eeecec;
@@ -68,18 +74,22 @@
   width: 100%;
   text-align: left;
   text-transform: uppercase;
-  border-bottom: 1px solid #d8cdcd;
 }
 .type-20 .right .bord .total {
   padding: 15px;
   width: 100%;
   text-align: right;
   text-transform: uppercase;
-  border-bottom: 1px solid #d8cdcd;
 }
 .type-20 .right .bord .pro-name {
-  border-bottom: 1px solid #d8cdcd;
   padding: 15px;
+}
+.type-20 .right .bord .pro-name .sys {
+  padding-top: 20px;
+  float: right;
+  color: #5bc0de;
+  font-size: 2em;
+  font-weight: bold;
 }
 .type-20 .right .bord .pro-quantity {
   padding: 1px;
@@ -91,17 +101,8 @@
 }
 .type-20 .right .form-check {
   font-size: 0.8em;
-  margin: auto;
   text-align: right;
-}
-.type-20 .right .pro-name {
-  border-bottom: 1px solid #d8cdcd;
-  padding: 15px;
-}
-.type-20 .right .pro-name .sys {
-  color: #5bc0de;
-  font-size: 2em;
-  font-weight: bold;
+  width: 250px;
 }
 .type-20 .right .order {
   padding: 5px;

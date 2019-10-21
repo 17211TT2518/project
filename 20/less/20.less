@@ -65,6 +65,12 @@
     }
 
     //col-right
+    tr{
+        border-bottom: 1px solid #d8cdcd;
+    }
+    .total{
+        border: none;
+    }
     .right {
         height: auto;
         background: #eeecec;
@@ -86,7 +92,6 @@
                 width: 100%;
                 text-align: left;
                 text-transform: uppercase;
-                border-bottom: 1px solid #d8cdcd;
             }
 
             .total {
@@ -94,12 +99,17 @@
                 width: 100%;
                 text-align: right;
                 text-transform: uppercase;
-                border-bottom: 1px solid #d8cdcd;
             }
 
             .pro-name {
-                border-bottom: 1px solid #d8cdcd;
                 padding: 15px;
+                .sys {
+                    padding-top: 20px;
+                    float: right;
+                    color: #5bc0de;
+                    font-size: 2em;
+                    font-weight: bold;
+                }
             }
 
             .pro-quantity {
@@ -115,19 +125,8 @@
 
         .form-check {
             font-size: 0.8em;
-            margin: auto;
             text-align: right;
-        }
-
-        .pro-name {
-            border-bottom: 1px solid #d8cdcd;
-            padding: 15px;
-
-            .sys {
-                color: #5bc0de;
-                font-size: 2em;
-                font-weight: bold;
-            }
+            width: 250px;
         }
 
         .order {
