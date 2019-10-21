@@ -24,17 +24,15 @@ $less->compileFile('less/19.less', 'css/19.css');
     <title>19</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<?php echo $url_path ?>/css/bootstrap-v3.3.7.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/19.css" rel="stylesheet" type="text/css" />
 
     <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/bootstrap-v3.3.7.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
 
 <body>
     <?php include '19-content.php'; ?>
-
-   
 </body>
 
 </html>
