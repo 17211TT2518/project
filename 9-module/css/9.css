@@ -2,6 +2,9 @@
   margin-top: 80px;
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+.type-9 a {
+  text-decoration: none;
+}
 .type-9 .title-custom {
   text-align: left;
 }
