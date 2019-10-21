@@ -1,7 +1,7 @@
 <div class="type-9">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="title-custom">
                     <b>New products</b>
                     <div class="line-right"></div>
@@ -39,7 +39,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="title-custom">
                     <b>Featured</b>
                     <div class="line-right"></div>
@@ -77,7 +77,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="product-custom">
                     <div class="title-custom">
                     <b>Recent tweets</b>
@@ -109,7 +109,7 @@
                 </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 ">
                 <div class="title-custom">
                     <b>Facebook</b>
                     <div class="line-right"></div>
