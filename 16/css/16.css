@@ -1,6 +1,32 @@
 .type-16 {
   margin-top: 50px;
 }
+.type-16 .row {
+  margin: 0 -5px;
+}
+.type-16 .row .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.type-16 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .type-16 .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.type-16 .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
 .type-16 .card-product {
   border: none;
 }

@@ -10,8 +10,8 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <div class="type-16">
     <div class="container">
-        <div class="row sm">
-            <div class="col-md-3 col-sm-6">
+        <div class="row">
+            <div class="colum col-md-3 col-sm-6">
                 <figure class="card card-product">
                     <div class="img-wrap">
                         <img src="images/1.png" alt="responsive" class="img-responsive">
