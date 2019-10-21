@@ -142,7 +142,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse7">I haven't received my item. What can
+                                        <a data-toggle="collapse" href="#collapse7">Do you understand. What can
                                             I do?</a>
                                     </h4>
                                 </div>
@@ -261,7 +261,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" href="#collapse13">I haven't received my item. What can
+                                        <a data-toggle="collapse" href="#collapse13">I don't know. What can
                                             I do?</a>
                                     </h4>
                                 </div>
