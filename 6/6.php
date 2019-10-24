@@ -35,10 +35,10 @@ $less->compileFile('less/6.less', 'css/6.css');
     <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
 	<script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
     <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-
+<script src="<?php echo $url_path ?>/js/6.js"></script>
 <body>
 <?php include '6-content.php'; ?>
-<script src="<?php echo $url_path ?>/js/6.js"></script>
+
 </body>
 
 </html>
