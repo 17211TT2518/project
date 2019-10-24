@@ -71,9 +71,6 @@
   font-weight: bold;
   color: #545454;
 }
-.type-15 .collas .style-rev .condimen .line {
-  line-height: 2.5;
-}
 .type-15 .collas .style-rev .condimen .form-control {
   background: #eceaea;
 }
@@ -86,6 +83,44 @@
 }
 .type-15 .collas .style-rev .condimen span {
   color: red;
+}
+.type-15 .collas .style-rev .condimen .line-two {
+  display: inline-block;
+  padding-top: 15px;
+}
+.type-15 .collas .style-rev .condimen .rate {
+  display: inline-block;
+  height: 46px;
+}
+.type-15 .collas .style-rev .condimen .rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.type-15 .collas .style-rev .condimen .rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.type-15 .collas .style-rev .condimen .rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.type-15 .collas .style-rev .condimen .rate > input:checked ~ label {
+  color: #ffc700;
+}
+.type-15 .collas .style-rev .condimen .rate:not(:checked) > label:hover,
+.type-15 .collas .style-rev .condimen .rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.type-15 .collas .style-rev .condimen .rate > input:checked + label:hover,
+.type-15 .collas .style-rev .condimen .rate > input:checked + label:hover ~ label,
+.type-15 .collas .style-rev .condimen .rate > input:checked ~ label:hover,
+.type-15 .collas .style-rev .condimen .rate > input:checked ~ label:hover ~ label,
+.type-15 .collas .style-rev .condimen .rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
 }
 .type-15 .collas .style-ship {
   visibility: hidden;

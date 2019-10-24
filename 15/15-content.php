@@ -118,7 +118,19 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-6 condimen">
                     <h4 class="find">Be the first to reviews "Yparturient condimen"</h4>
                     <p class="line">Your email address will not be published. Required fields are marked</p>
-                    <p class="line">Your rating:&nbsp;&nbsp;<i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p>
+                    <div class="rate">
+                        <p class="line-two">Your rating:&nbsp;&nbsp;</p>
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                    </div>
                     <p class="line">Your reviews <span>*</span></p>
                     <div class="form-group">
                         <textarea class="form-control" id="Textarea" rows="6"></textarea>

@@ -15,5 +15,7 @@ $(document).ready(function () {
     $("#footwear").css("visibility", "hidden");
     $("#review").css("visibility", "hidden");
   });
-
+  $('.save').click(function(){
+    $('#check').prop("checked", true);
+  });
 });
