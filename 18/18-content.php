@@ -13,8 +13,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="row">
-                            <div class="col-md-6">
-                                <img src="./images/about.png" alt="responsive" style="width: 100%; height: 100%;"
+                            <div class="col-md-6 picture">
+                                <img src="./images/4.png" alt="responsive" style="width: 100%; height: 100%;"
                                     class="img-responsive">
                             </div>
                             <div class="col-md-6 content">
@@ -24,10 +24,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <p class="varius">
                                     Suspendisse leo sodales varius leo elementum vestibulum a elit at ultrices a mi a
                                     praesent enim libero ultrices a amet suscipit. A tempus iaculis habitasse
-                                    suspendisse
-                                    aenean parturient blandit a rutrum leo elementum purus a a et id non feugiat donec.
+                                    suspendisse aenean parturient blandit a rutrum leo elementum purus a a et id non feugiat donec.
                                 </p>
-                                <img src="./images/austen.png" alt="responsive" class="img-responsive logo">
+                                <!-- <img src="./images/austen.png" alt="responsive" class="img-responsive logo"> -->
                                 <div class="all-icon">
                                     <a href="#"><i id="icon" class="fa fa-facebook" aria-hidden="true"></i></a>
                                     <a href="#"><i id="icon" class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -40,8 +39,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <div class="swiper-slide">
                     <div class="row">
-                            <div class="col-md-6">
-                                <img src="./images/about.png" alt="responsive" style="width: 100%; height: 100%;"
+                            <div class="col-md-6 picture">
+                                <img src="./images/2.png" alt="responsive" style="width: 100%; height: 100%;"
                                     class="img-responsive">
                             </div>
                             <div class="col-md-6 content">
@@ -49,12 +48,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                     consectetur lobortis meacenas risus mi lacus cond consequat.
                                 </h1>
                                 <p class="varius">
-                                    Suspendisse leo sodales varius leo elementum vestibulum a elit at ultrices a mi a
+                                Suspendisse leo sodales varius leo elementum vestibulum a elit at ultrices a mi a
                                     praesent enim libero ultrices a amet suscipit. A tempus iaculis habitasse
-                                    suspendisse
-                                    aenean parturient blandit a rutrum leo elementum purus a a et id non feugiat donec.
+                                    suspendisse aenean parturient blandit a rutrum leo elementum purus a a et id non feugiat donec.
                                 </p>
-                                <img src="./images/austen.png" alt="responsive" class="img-responsive logo">
+                                <!-- <img src="./images/austen.png" alt="responsive" class="img-responsive logo"> -->
                                 <div class="all-icon">
                                     <a href="#"><i id="icon" class="fa fa-facebook" aria-hidden="true"></i></a>
                                     <a href="#"><i id="icon" class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -67,8 +65,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <div class="swiper-slide">
                     <div class="row">
-                            <div class="col-md-6">
-                                <img src="./images/about.png" alt="responsive" style="width: 100%; height: 100%;"
+                            <div class="col-md-6 picture">
+                                <img src="./images/3.png" alt="responsive" style="width: 100%; height: 100%;"
                                     class="img-responsive">
                             </div>
                             <div class="col-md-6 content">
@@ -76,12 +74,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                     consectetur lobortis meacenas risus mi lacus cond consequat.
                                 </h1>
                                 <p class="varius">
-                                    Suspendisse leo sodales varius leo elementum vestibulum a elit at ultrices a mi a
+                                Suspendisse leo sodales varius leo elementum vestibulum a elit at ultrices a mi a
                                     praesent enim libero ultrices a amet suscipit. A tempus iaculis habitasse
-                                    suspendisse
-                                    aenean parturient blandit a rutrum leo elementum purus a a et id non feugiat donec.
+                                    suspendisse aenean parturient blandit a rutrum leo elementum purus a a et id non feugiat donec.
                                 </p>
-                                <img src="./images/austen.png" alt="responsive" class="img-responsive logo">
+                                <!-- <img src="./images/austen.png" alt="responsive" class="img-responsive logo"> -->
                                 <div class="all-icon">
                                     <a href="#"><i id="icon" class="fa fa-facebook" aria-hidden="true"></i></a>
                                     <a href="#"><i id="icon" class="fa fa-twitter" aria-hidden="true"></i></a>
