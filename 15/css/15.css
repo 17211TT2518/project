@@ -16,7 +16,7 @@
   font-size: 2em;
 }
 .type-15 .collas .navbar-default .navbar-nav li a:hover {
-  color: #0ba886;
+  color: #1daaa3;
   font-size: 2em;
 }
 .type-15 .collas .style-all {
@@ -67,6 +67,9 @@
 .type-15 .collas .style-rev .condimen {
   float: left;
 }
+.type-15 .collas .style-rev .condimen .form-check label:hover {
+  color: #1daaa3;
+}
 .type-15 .collas .style-rev .condimen .find {
   font-weight: bold;
   color: #545454;
@@ -75,11 +78,12 @@
   background: #eceaea;
 }
 .type-15 .collas .style-rev .condimen .btn-sub {
-  background: #0ba886;
+  background: #1daaa3;
   border: 1px solid #d1cbcb;
   color: #fff;
   width: 20%;
   height: 40px;
+  margin-top: 15px;
 }
 .type-15 .collas .style-rev .condimen span {
   color: red;
