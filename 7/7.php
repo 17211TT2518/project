@@ -29,7 +29,6 @@
 
 <body>
     <?php include './7-content.php'; ?>
-
 </body>
 
 </html>

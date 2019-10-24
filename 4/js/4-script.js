@@ -10,7 +10,7 @@ $(document).ready(function () {
 	});
 });
 function openNav() {
-    $("#mySidenav").css('width', "340px");
+    $("#mySidenav").css('width', "324px");
     $(".close-side").css("visibility", "visible");
     $(".close-side").css("opacity", "1");
 }

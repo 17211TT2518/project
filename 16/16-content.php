@@ -10,8 +10,8 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <div class="type-16">
     <div class="container">
-        <div class="row sm">
-            <div class="col-md-3 col-sm-6">
+        <div class="row">
+            <div class="colum col-md-3 col-sm-6">
                 <figure class="card card-product">
                     <div class="img-wrap">
                         <img src="images/1.png" alt="responsive" class="img-responsive">
@@ -31,7 +31,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <span href="#" class="title">Backpack double strap</span>
                         <div class="black"></div>
                         <div class="blue"></div>
                         <div class="price-wrap">
@@ -66,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack sneaker</a>
+                        <span class="title">Backpack sneaker</span>
                         <div class="black"></div>
                         <div class="brown"></div>
                         <div class="red"></div>
@@ -102,7 +102,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack dress</a>
+                        <span class="title">Backpack dress</span>
                         <div class="black"></div>
                         <div class="yellow"></div>
                         <div class="green"></div>
@@ -139,7 +139,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <span class="title">Backpack double strap</span>
                         <div class="brown"></div>
                         <div class="blue"></div>
                         <div class="price-wrap">
