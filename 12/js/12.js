@@ -1,3 +1,26 @@
+//  Initialize Swiper 
+$(document).ready(function(){
+    $( "#input-number" ).prop( "disabled", true );
+
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+    spaceBetween: 10,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+        swiper: galleryThumbs
+    }
+    });
+});
+
 function wcqib_refresh_quantity_increments() {
     jQuery("div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)").each(function(a, b) {
         var c = jQuery(b);

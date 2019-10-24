@@ -1,6 +1,9 @@
 .type-12 {
   margin-top: 30px;
 }
+.type-12 *:focus {
+  outline: none;
+}
 .type-12 img {
   width: 100%;
 }
@@ -151,6 +154,9 @@
   font-weight: 300;
   color: #202020;
 }
+.type-12 .category a:hover {
+  text-decoration: none;
+}
 .type-12 .share {
   font-weight: 500;
   color: #000;
@@ -177,8 +183,9 @@
   color: #676767;
 }
 .type-12 .share ul li a:hover {
+  text-decoration: none;
   padding: 0 5px;
-  color: #000;
+  color: #1daaa3;
 }
 @media (min-width: 576px) {
   .modal-dialog {
