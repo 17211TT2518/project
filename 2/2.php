@@ -24,16 +24,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
-	<link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
 	<link href="<?php echo $url_path ?>/css/2.css" rel="stylesheet" type="text/css" />
+<<<<<<< HEAD
+	<link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
+	
+	<script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+	
+=======
 	<script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
 
+>>>>>>> db691a2c4538b0833ada55709d04d7037e3204aa
 </head>
 
 <body>
     <?php include './2-content.php'; ?>
 	<script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-	<script src="<?php echo $url_path ?>/js/jquery.js"></script>
+	<script src="<?php echo $url_path ?>/js/2.js"></script>
 </body>
 
 </html>

@@ -29,7 +29,11 @@
 	<script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
 	<script src="<?php echo $url_path ?>/js/popper.min.js"></script>
 	<script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
+<<<<<<< HEAD
+	<script src="<?php echo $url_path ?>/js/jquery.js"></script>
+=======
 	<script src="<?php echo $url_path ?>/js/11.js"></script>
+>>>>>>> db691a2c4538b0833ada55709d04d7037e3204aa
 </head>
 
 <body>

@@ -25,6 +25,15 @@
   -webkit-align-items: center;
   align-items: center;
 }
+.type-2 .banner .swiper-container .text .fadeInRight {
+  animation: fadeInRight 1s;
+}
+.type-2 .banner .swiper-container .text .fadeInLeft {
+  animation: fadeInLeft 1s;
+}
+.type-2 .banner .swiper-container .text .fadeInUp {
+  animation: fadeInUp 2s;
+}
 .type-2 .banner .swiper-container .text h2 {
   font-family: "French Script MT";
   font-size: 65px;
@@ -63,4 +72,40 @@
 }
 .type-2 .banner .swiper-container .text a:hover {
   color: #ffffff;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
 }
