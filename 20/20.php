@@ -33,9 +33,10 @@ $less->compileFile('less/20.less', 'css/20.css');
 
     <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
     <script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
-   
+    <script src="<?php echo $url_path ?>/js/20.js"></script>
+
 <body>
 <?php include '20-content.php'; ?>
-<script src="<?php echo $url_path ?>/js/20.js"></script>
+
 </body>
 </html>

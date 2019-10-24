@@ -22,18 +22,18 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-6 left">
                 <h3 class="bill">billing details</h3>
                 <div class="form-group">
-                        <p for="first-name">First name
-                            <span class="icon">*</span>
-                        </p>
-                        <input type="name" class="form-control" id="first-name" placeholder="Enter first name...">
-                    </div>
-                    <div class="form-group">
-                        <p for="first-name">
-                            Last name
-                            <span class="icon">*</span>
-                        </p>
-                        <input type="name" class="form-control" id="last-name" placeholder="Enter last name...">
-                    </div>
+                    <p for="first-name">First name
+                        <span class="icon">*</span>
+                    </p>
+                    <input type="name" class="form-control" id="first-name" placeholder="Enter first name...">
+                </div>
+                <div class="form-group">
+                    <p for="first-name">
+                        Last name
+                        <span class="icon">*</span>
+                    </p>
+                    <input type="name" class="form-control" id="last-name" placeholder="Enter last name...">
+                </div>
                 <div class="form-group">
                     <p for="company">
                         Company name (optional)
@@ -91,12 +91,12 @@ $url_path = str_replace('\\', '/', $url_path);
                     <input type="email" class="form-control" id="email">
                 </div>
                 <div class="form-box">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <span class="form-check-label" for="exampleCheck1">Create an account?</span>
+                    <input type="checkbox" class="form-check-input" id="check2">
+                    <span class="form-check-label click2">Create an account?</span>
                 </div>
                 <div class="form-add">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <span class="form-check-label" for="exampleCheck1">SHIP TO A DIFFERENCT ADDRESS ?</span>
+                    <input type="checkbox" class="form-check-input" id="check3">
+                    <span class="form-check-label click3">SHIP TO A DIFFERENCT ADDRESS ?</span>
                 </div>
                 <div class="form-note">
                     <p for="exampleFormControlTextarea1">Oder notes (opyional)</p>
@@ -139,18 +139,18 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </th>
                                 <td>
                                     <div class="form-check">
-                                        <p class="form-check-label">
-                                            <input type="radio" class="form-check-input" name="optradio">&nbsp;&nbsp;Flat Rate:£12.00
-                                        </p>
+                                        <input type="radio" class="form-check-input" id="check4">
+                                        <span class="form-check-label click4">Flat Rate:£12.00</span>
                                     </div>
+
                                     <div class="form-check">
-                                        <p class="form-check-label">
-                                            <input type="radio" class="form-check-input" name="optradio">&nbsp;&nbsp;Free Shipping
-                                        </p>
+                                        <input type="radio" class="form-check-input" id="check5">
+                                        <span class="form-check-label click5">Free Shipping</span>
                                     </div>
-                                    <div class="form-check local">
-                                        <p class="form-check-label">
-                                            <input type="radio" class="form-check-input" name="optradio">&nbsp;&nbsp;Local Delivery </p>
+
+                                    <div class="form-check">
+                                        <input type="radio" class="form-check-input" id="check6">
+                                        <span class="form-check-label click6">Local Delivery</span>
                                     </div>
                                 </td>
                             </tr>
@@ -168,7 +168,10 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
 
                 <div class="order">
-                    <input name="collapseGroup" type="radio" data-toggle="collapse" data-target="#collapseOne" /> Direct Bank Transfer
+                    <div class="form-radio">
+                        <input type="radio" class="form-check-input" id="check7">
+                        <span class="form-check-label click7">Local Delivery</span>
+                    </div>
                     <div class="panel-group" id="accordion">
                         <div id="collapseOne" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -178,7 +181,10 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
 
-                    <input name="collapseGroup" type="radio" data-toggle="collapse" data-target="#collapseTwo" /> Cash on Delivery
+                    <div class="form-radio">
+                        <input type="radio" class="form-check-input" id="check8">
+                        <span class="form-check-label click8">Local Delivery</span>
+                    </div>
                     <div class="panel-group" id="accordion">
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -191,11 +197,11 @@ $url_path = str_replace('\\', '/', $url_path);
                         <a class="poli" href="#">privacy policy</a></p>
 
                     <div class="form-box">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <span class="form-check-label" for="exampleCheck1">I have read and agree to the website <a class="poli" href="#">terms and conditions</a> </span>
+                        <input type="checkbox" class="form-check-input" id="check">
+                        <span class="form-check-label save">I have read and agree to the website <a class="poli" href="#">terms and conditions</a> </span>
                         <span class="icon">*</span>
                     </div>
-                    <button type="button" class="btn btn-info">place older</button>
+                    <button type="button" class="btn">place older</button>
                 </div>
             </div>
         </div>
