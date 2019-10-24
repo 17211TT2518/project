@@ -13,11 +13,11 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <div class="row header">
                 <div class="col-md-6">
-                    <ul class="item-left">
-                        <li class="nav-item">
+                    <div class="item-left">
+                        <div class="nav-item">
                             <span href="#">OUR PHONE NUMBER: +09 (00)8978343</span>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="item-right">
@@ -57,28 +57,23 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav navbar-left">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</b></a>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">HOME<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">FAQS</a></li>
                                 <li><a href="#">About me</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURE</b></a>
-                            <ul class="dropdown-menu">
                                 <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Feature</a></li>
                             </ul>
                         </li>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">BLOG</a></li>
                     </ul>
-                    <!-- <ul class="nav navbar-nav ">
-                        <a href="#" class="brand"><img src="./images/logo-bg.png" alt="" class="img-logo"></a>
-                    </ul> -->
                     <ul class="nav navbar-nav navbar-right top-right">
-                        <li><a href="#" class="nav-link">Login / Register</a></li>
+                        <li class="nav-link">
+                            <div class="shape" height="60" width="320" ></div>
+                            <a href="#">Login / Register</a>
+                        </li>
                         <li>
                             <form action="" class="form-search">
                                 <input type="search" class="search" placeholder="Search..." ,>
@@ -94,6 +89,10 @@ $url_path = str_replace('\\', '/', $url_path);
 
         </div>
     </div>
-  
-    
+
+    <p class="container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam obcaecati amet, veritatis iusto porro
+        dignissimos ratione excepturi iure tempora velit fugit odit sed. Repellat fuga optio dicta esse nobis dolores.
+    </p>
+
+
 </div>

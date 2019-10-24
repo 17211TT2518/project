@@ -5,13 +5,7 @@
   padding-top: 15px;
   width: 100%;
 }
-.type-1 .top-header .header {
-  margin-left: -30px;
-}
-.type-1 .top-header ul li {
-  list-style: none;
-}
-.type-1 .top-header .item-left li span {
+.type-1 .top-header .item-left span {
   color: #f8f8f8;
 }
 .type-1 .top-header .item-right {
@@ -46,9 +40,13 @@
 .type-1 .menu .navbar-default {
   border: none;
 }
+.type-1 .menu ul li a:hover {
+  color: #1daaa3;
+}
 .type-1 .menu .img-logo {
   max-width: 190px;
   padding-right: 20px;
+  margin-left: -16px;
 }
 .type-1 .menu .top-right form {
   position: relative;
