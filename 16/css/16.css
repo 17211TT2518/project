@@ -36,7 +36,6 @@
 .type-16 .card-product .img-wrap .font-awe {
   list-style: none;
   position: absolute;
-  right: 5px;
   right: 10px;
   top: 0;
 }
@@ -53,6 +52,10 @@
   font-family: "Times New Roman", Times, serif;
   color: #000;
   border-bottom: 1px solid rgba(0,0,0,0.1);
+  white-space: nowrap;
+  width: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .type-16 .card-product .info-wrap .black {
   width: 15px;
