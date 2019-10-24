@@ -71,10 +71,38 @@
         background-color: #fff;
         
     }
-    .card-columns {
+    .tab-content{
         margin-top: 20px;
-        .card{
-            border: none;
+        .image {
+            position: relative;
+            width: 100%;
+            .card-img-top {
+                display: block;
+                width: 100%;
+                height: auto;
+                border-top-left-radius: calc(.25rem - 1px);
+                border-top-right-radius: calc(.25rem - 1px)
+            }
+            .overlay {
+                position: absolute; 
+                bottom: 0; 
+                background: #000; /* Black see-through */
+                color: #f1f1f1; 
+                width: 100%;
+                transition: .5s ease;
+                opacity:0;
+                color: white;
+                font-size: 20px;
+                padding: 10px;
+                text-align: center;
+                a{
+                   color: #fff;
+                   padding: 0 6px; 
+                }
+                a:hover{
+                    color: #c9c6c1;
+                }
+            }
         }
         .card-body{
             text-align: center;
@@ -85,21 +113,16 @@
             font-family: Playfair Display;
             font-size: 15px;
         }
-    }
-
-    @media (min-width: 34em) {
-        .card-columns {
-            -webkit-column-count: 2;
-            -moz-column-count: 2;
-            column-count: 2;
+        .card-text{
+            color: #949494;
+            font-size: 1.2em;
         }
+       .image:hover .overlay {
+            
+            opacity: 1;
+        } 
     }
     
-    @media (min-width: 48em) {
-        .card-columns {
-            -webkit-column-count: 3;
-            -moz-column-count: 3;
-            column-count: 3;
-        }
-    }
+
+    
 }
