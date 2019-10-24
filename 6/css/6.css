@@ -44,6 +44,7 @@
   width: auto;
   padding: 10px 20px;
   border-radius: 25px;
+  margin-bottom: 30px;
 }
 .type-6 .all-content .images-two {
   position: relative;
@@ -150,16 +151,29 @@
   text-decoration: none;
   cursor: pointer;
 }
-@media only screen and (max-width: 700px) {
-  .type-6 .modal-content {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1090px) {
+@media only screen and (max-width: 767px) {
   .type-6 .images-two {
-    margin-top: 20px;
+    margin-top: 15px;
+  }
+  .type-6 .example {
+    font-size: 2.5em !important;
   }
   .type-6 .sh-right {
-    padding-top: 50px;
+    margin-top: 15px;
   }
+  .type-6 .shoes {
+    font-size: 2.5em !important;
+  }
+  .type-6 .content {
+    line-height: 1.2 !important;
+  }
+  .type-6 .content-two {
+    line-height: 1.2 !important;
+  }
+}
+.type-6 .swiper-button-next {
+  color: #4e390c;
+}
+.type-6 .swiper-button-prev {
+  color: #4e390c;
 }

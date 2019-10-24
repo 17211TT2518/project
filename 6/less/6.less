@@ -54,6 +54,7 @@
         width: auto;
         padding: 10px 20px;
         border-radius: 25px;
+        margin-bottom: 30px;
       }
     }
 
@@ -196,20 +197,38 @@
 
 
   /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px) {
-    .modal-content {
-      width: 100%;
+  @media only screen and (max-width: 767px) {
+    .images-two{
+      margin-top: 15px;
     }
-  }
-
-  @media screen and (max-width: 1090px) {
-    .images-two {
-      margin-top: 20px;
+    .example {
+      font-size: 2.5em !important;
     }
-
     .sh-right {
-      padding-top: 50px;
+      margin-top: 15px;
     }
+    .shoes {
+      font-size: 2.5em !important; 
+    }
+    .content {
+      line-height: 1.2 !important;
+    }
+    .content-two{
+      line-height: 1.2 !important;
+
+    } 
   }
 
+  //   .sh-right {
+  //     padding-top: 50px;
+  //   }
+  // }
+  .swiper-button-next {
+    color: #4e390c;
+  }
+
+  .swiper-button-prev {
+    color: #4e390c;
+  }
+ 
 }
