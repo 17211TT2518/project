@@ -1,7 +1,30 @@
-.type-18 .content {
+.type-18 .swiper-container {
+  width: 100%;
+  height: 450px;
+}
+.type-18 .swiper-container *:focus {
+  outline: none;
+}
+.type-18 .swiper-container .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content {
   margin-top: 70px;
 }
-.type-18 .content .lobor {
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .lobor {
   padding-top: 45px;
   text-transform: capitalize;
   text-align: center;
@@ -10,7 +33,7 @@
   font-size: 2em;
   line-height: 1.2;
 }
-.type-18 .content .varius {
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .varius {
   padding-top: 25px;
   color: #807b7b;
   font-size: 1.2em;
@@ -18,13 +41,13 @@
   line-height: 1.5;
   font-family: "Consolas";
 }
-.type-18 .content .all-icon {
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .all-icon {
   width: 100%;
   margin-top: 15%;
   position: absolute;
   left: 20%;
 }
-.type-18 .content .all-icon #icon {
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .all-icon #icon {
   font-size: 1.2em;
   margin-left: 3%;
   padding: 15px;
@@ -32,7 +55,7 @@
   border-radius: 50%;
   background: #eceaea;
 }
-.type-18 .content .all-icon #icon:hover {
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .all-icon #icon:hover {
   font-size: 1.2em;
   margin-left: 3%;
   padding: 15px;
@@ -40,7 +63,7 @@
   border-radius: 50%;
   background: #9e9a9a;
 }
-.type-18 .content .logo {
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .logo {
   width: 30%;
   height: auto;
   position: absolute;
