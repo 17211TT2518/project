@@ -11,7 +11,38 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row">
             <div class="col-md-6 item-left">
-                <img src="./images/shoes-product-7.jpg" alt="" class="img-responsive">
+                <div style="height: 500px;">
+                    <div class="swiper-container gallery-top">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-3.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-4.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-5.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-7.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-8.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-9.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-10.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-22.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-111.jpg)"></div>
+                        </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                    <div class="swiper-container gallery-thumbs">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(./images/shoes-product-3.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-4.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-5.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-7.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-8.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-9.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-10.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-22.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(./images/shoes-product-111.jpg)"></div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <div class="col-md-6">
                 <!-- name -->
@@ -34,11 +65,17 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="addCart">
                         <button type="submit" name="add to cart" class="btn-cart">ADD TO CART</button>
                     </div>
+                    <div class="wishlist">
+                        <a href="#"><i class="fa fa-heart"></i> Add to wishlist</a>
+                    </div>
+                    <div class="compare">
+                        <a href="#"><i class="fa fa-retweet"> Compare</i></a>
+                    </div>
                     <div class="category">
-                        <span class="posted_in">Category: <a href="#">Boots</a></span>
+                        <span class="posted_in" style="font-weight: bold">Category: <a href="#">Boots</a></span>
                     </div>
                     <div class="share">
-                        <span class="share-title">Share: </span>
+                        <span class="share-title" style="font-weight: bold">Share: </span>
                         <ul class="social-icons">
                             <li class="social-facebook">
                                 <a href="#" class=""><i class="fa fa-facebook"></i></a>

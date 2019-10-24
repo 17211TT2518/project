@@ -51,32 +51,53 @@
   color: #b57b00;
   background-color: #fff;
 }
-.type-3 .card-columns {
+.type-3 .tab-content {
   margin-top: 20px;
 }
-.type-3 .card-columns .card {
-  border: none;
+.type-3 .tab-content .image {
+  position: relative;
+  width: 100%;
 }
-.type-3 .card-columns .card-body {
+.type-3 .tab-content .image .card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-top-left-radius: calc(-0.75rem);
+  border-top-right-radius: calc(-0.75rem);
+}
+.type-3 .tab-content .image .overlay {
+  position: absolute;
+  bottom: 0;
+  background: #000;
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
   text-align: center;
 }
-.type-3 .card-columns .card-title {
+.type-3 .tab-content .image .overlay a {
+  color: #fff;
+  padding: 0 6px;
+}
+.type-3 .tab-content .image .overlay a:hover {
+  color: #c9c6c1;
+}
+.type-3 .tab-content .card-body {
+  text-align: center;
+}
+.type-3 .tab-content .card-title {
   font-weight: 600;
   letter-spacing: .3px;
   font-family: Playfair Display;
   font-size: 15px;
 }
-@media (min-width: 34em) {
-  .type-3 .card-columns {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  }
+.type-3 .tab-content .card-text {
+  color: #949494;
+  font-size: 1.2em;
 }
-@media (min-width: 48em) {
-  .type-3 .card-columns {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-  }
+.type-3 .tab-content .image:hover .overlay {
+  opacity: 1;
 }
