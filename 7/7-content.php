@@ -8,7 +8,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-7">
-    <div class="wp-content">
+    <div class="content">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
