@@ -1,23 +1,27 @@
+.type-15 .menu {
+  background: #F8F8F8;
+  height: 56px;
+}
+.type-15 .menu .navbar-default {
+  border: none;
+}
+.type-15 .menu .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.type-15 .menu .navbar-nav li {
+  float: none;
+  display: inline-block;
+}
+.type-15 .menu .navbar-nav li a {
+  font-size: 2em;
+  text-align: center;
+}
+.type-15 .menu .navbar-nav li a:hover {
+  color: #1daaa3;
+}
 .type-15 .collas {
   position: relative;
-}
-.type-15 .collas .navbar-default {
-  background: #fff;
-  border: none;
-  margin-top: 30px;
-}
-.type-15 .collas .navbar-default .navbar-nav li {
-  margin-left: 70px;
-}
-.type-15 .collas .navbar-default .navbar-nav li a {
-  text-decoration: none;
-  color: #000;
-  display: inline-block;
-  font-size: 2em;
-}
-.type-15 .collas .navbar-default .navbar-nav li a:hover {
-  color: #1daaa3;
-  font-size: 2em;
 }
 .type-15 .collas .style-all {
   visibility: hidden;
@@ -96,11 +100,11 @@
   display: inline-block;
   height: 46px;
 }
-.type-15 .collas .style-rev .condimen .rate:not(:checked) > input {
+.type-15 .collas .style-rev .condimen .rate:not(:checked)>input {
   position: absolute;
   top: -9999px;
 }
-.type-15 .collas .style-rev .condimen .rate:not(:checked) > label {
+.type-15 .collas .style-rev .condimen .rate:not(:checked)>label {
   float: right;
   width: 1em;
   overflow: hidden;
@@ -109,26 +113,27 @@
   font-size: 30px;
   color: #ccc;
 }
-.type-15 .collas .style-rev .condimen .rate:not(:checked) > label:before {
+.type-15 .collas .style-rev .condimen .rate:not(:checked)>label:before {
   content: '★ ';
 }
-.type-15 .collas .style-rev .condimen .rate > input:checked ~ label {
+.type-15 .collas .style-rev .condimen .rate>input:checked~label {
   color: #ffc700;
 }
-.type-15 .collas .style-rev .condimen .rate:not(:checked) > label:hover,
-.type-15 .collas .style-rev .condimen .rate:not(:checked) > label:hover ~ label {
+.type-15 .collas .style-rev .condimen .rate:not(:checked)>label:hover,
+.type-15 .collas .style-rev .condimen .rate:not(:checked)>label:hover~label {
   color: #deb217;
 }
-.type-15 .collas .style-rev .condimen .rate > input:checked + label:hover,
-.type-15 .collas .style-rev .condimen .rate > input:checked + label:hover ~ label,
-.type-15 .collas .style-rev .condimen .rate > input:checked ~ label:hover,
-.type-15 .collas .style-rev .condimen .rate > input:checked ~ label:hover ~ label,
-.type-15 .collas .style-rev .condimen .rate > label:hover ~ input:checked ~ label {
+.type-15 .collas .style-rev .condimen .rate>input:checked+label:hover,
+.type-15 .collas .style-rev .condimen .rate>input:checked+label:hover~label,
+.type-15 .collas .style-rev .condimen .rate>input:checked~label:hover,
+.type-15 .collas .style-rev .condimen .rate>input:checked~label:hover~label,
+.type-15 .collas .style-rev .condimen .rate>label:hover~input:checked~label {
   color: #c59b08;
 }
 .type-15 .collas .style-ship {
   visibility: hidden;
   margin-top: 40px;
+  position: absolute;
 }
 .type-15 .collas .style-ship .comm {
   margin-bottom: 10px;
