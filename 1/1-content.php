@@ -52,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="brand"><img src="./images/logo-bg.png" alt="" class="img-logo"></a>
+                    <a href="#" class="brand"><img src="./images/logo-bg.png" alt="logo" class="img-logo"></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -71,7 +71,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     </ul>
                     <ul class="nav navbar-nav navbar-right top-right">
                         <li class="nav-link">
-                            <div class="shape" height="60" width="320" ></div>
                             <a href="#">Login / Register</a>
                         </li>
                         <li>
