@@ -10,6 +10,7 @@ $(document).ready(function (){
     var swiper = new Swiper('.sw1', {
       pagination: {
         el: '.swiper-pagination',
+        clickable: true,
       },
       navigation: {
         nextEl: '.swiper-button-next',
@@ -28,6 +29,7 @@ $(document).ready(function (){
     var swiper2 = new Swiper('.sw2', {
       pagination: {
         el: '.swiper-pagination',
+        clickable: true,
       },
       navigation: {
         nextEl: '.swiper-button-next',

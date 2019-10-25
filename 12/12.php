@@ -27,37 +27,18 @@
 	<link rel="stylesheet" href="css/swiper.min.css"/>
 <link href="<?php echo $url_path ?>/css/12.css" rel="stylesheet" type="text/css" />
 	
-
-	<script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
 	<script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+	<script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+
 	<script src="<?php echo $url_path ?>/js/popper.min.js"></script>
-	<script src="<?php echo $url_path ?>/js/jquery.js"></script>
+	<script src="<?php echo $url_path ?>/js/12.js"></script>
+
+
 </head>
 
 <body>
     <?php include './12-content.php'; ?>
-    <script src="js/swiper.min.js"></script>
-     <script type="text/javascript" src="/js/fontawesome-all.min.js"></script>
-	<!-- Initialize Swiper -->
-	<script>
-		var galleryThumbs = new Swiper('.gallery-thumbs', {
-		spaceBetween: 10,
-		slidesPerView: 4,
-		freeMode: true,
-		watchSlidesVisibility: true,
-		watchSlidesProgress: true,
-		});
-		var galleryTop = new Swiper('.gallery-top', {
-		spaceBetween: 10,
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-		thumbs: {
-			swiper: galleryThumbs
-		}
-		});
-	</script>
 </body>
 
 </html>

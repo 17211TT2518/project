@@ -9,7 +9,12 @@ $(document).ready(function() {
         $("#footwear").css("visibility", "hidden");
         $("#deliver").css("visibility", "hidden");
         $('.save').click(function() {
-            $('#check').prop("checked", true);
+            
+            if($('#check').is(':checked')){
+              $('#check').prop("checked", false);
+            }else{
+              $('#check').prop("checked", true);
+            }
         });
     });
     $("#ship").click(function() {

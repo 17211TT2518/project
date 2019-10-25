@@ -10,7 +10,7 @@
   font-weight: bold;
 }
 .type-19 .question li a:hover {
-  color: seagreen;
+  color: #1daaa3;
 }
 .type-19 .question li a::after {
   content: "";
@@ -33,7 +33,7 @@
   text-decoration: none;
 }
 .type-19 .tab-content a:hover {
-  color: seagreen;
+  color: #1daaa3;
 }
 .type-19 .ask {
   margin-top: 30px;
@@ -43,7 +43,7 @@
   height: 100%;
 }
 .type-19 .ask .btn {
-  background: seagreen;
+  background: #1daaa3;
   color: #fff;
 }
 .type-19 .collapsible-link {

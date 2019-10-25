@@ -30,11 +30,14 @@ $less->compileFile('less/18.less', 'css/18.css');
     <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/18.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+
 
     <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
     <script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/18.js"></script>
 <body>
-
 <?php include '18-content.php'; ?>
 </body>
 </html>

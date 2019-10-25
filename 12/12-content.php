@@ -59,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="quantity buttons_added">
                         <input type="button" value="-" class="minus">
                         <input type="number" step="1" min="0" max="" name="quantity" value="0" title="Qty"
-                            class="input-text qty text" size="4" pattern="" inputmode="">
+                            class="input-text qty text" size="4" pattern="" inputmode="" id="input-number">
                         <input type="button" value="+" class="plus">
                     </div>
                     <div class="addCart">
