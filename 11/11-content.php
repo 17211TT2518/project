@@ -65,5 +65,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
+        <!-- End Modal -->
     </div>
 </div>

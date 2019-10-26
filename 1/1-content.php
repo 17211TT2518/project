@@ -38,6 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
+    <!--end header-->
     <!--menu-->
 
     <div class="menu">
@@ -88,6 +89,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
         </div>
     </div>
+     <!--end menu-->
 
     <p class="container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam obcaecati amet, veritatis iusto porro
         dignissimos ratione excepturi iure tempora velit fugit odit sed. Repellat fuga optio dicta esse nobis dolores.

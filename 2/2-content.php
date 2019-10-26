@@ -46,6 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <img src="./images/slide-15-s.png" alt="">
                 </div>
             </div>
+            <!-- The pagination -->
             <div class="swiper-pagination"></div>
             <!-- Add Arrows -->
             <div class="swiper-button-next" style="color: #B57B00;"></div>
