@@ -32,9 +32,11 @@
   animation: fadeInRight 1s;
 }
 .type-2 .banner .swiper-container .text .fadeInLeft {
+  margin-top: 23px;
   animation: fadeInLeft 1s;
 }
 .type-2 .banner .swiper-container .text .fadeInUp {
+  margin-top: 60px;
   animation: fadeInUp 2s;
 }
 .type-2 .banner .swiper-container .text h2 {

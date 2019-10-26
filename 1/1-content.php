@@ -46,8 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <nav class="navbar navbar-default" role="navigation">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target=".navbar-ex1-collapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -58,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav navbar-left">
-                    <li class="dropdown">
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">HOME<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">FAQS</a></li>
@@ -75,10 +74,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#">Login / Register</a>
                         </li>
                         <li>
-                            <form action="" class="form-search">
-                                <input type="search" class="search" placeholder="Search..." ,>
-                                <i class="fa fa-search search-button"></i>
+                            <form class="example" action="#" style="margin:auto;max-width:300px">
+                                <input type="text" placeholder="Search.." name="search2">
+                                <button type="submit"><i class="fa fa-search"></i></button>
                             </form>
+
                         </li>
                         <li class="item-cart">
                             <a href="#" id="opennav"><i class="fa fa-shopping-cart cart-button"></i></i></a>
@@ -89,7 +89,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
         </div>
     </div>
-     <!--end menu-->
+    <!--end menu-->
 
     <p class="container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam obcaecati amet, veritatis iusto porro
         dignissimos ratione excepturi iure tempora velit fugit odit sed. Repellat fuga optio dicta esse nobis dolores.

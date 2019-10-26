@@ -83,36 +83,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <p class="card-text">£ 579.00</p>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="image">
-                                <img class="card-img-top" src="images/shoes-product-22" alt="Card image cap">
-                                <div class="overlay"> 
-                                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="#"><i class="fa fa-search-plus"></i></a>
-                                    <a href="#"><i class="fa fa-heart"></i></a>
-                                    <a href="#"><i class="fa fa-retweet"></i></a>
-                                </div>                               
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Yleo vestibulum</h5>
-                                <p class="card-text">£ 579.00</p>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="image">
-                                <img class="card-img-top" src="images/shoes-product-3" alt="Card image cap">
-                                <div class="overlay"> 
-                                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="#"><i class="fa fa-search-plus"></i></a>
-                                    <a href="#"><i class="fa fa-heart"></i></a>
-                                    <a href="#"><i class="fa fa-retweet"></i></a>
-                                </div>                               
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Yleo vestibulum</h5>
-                                <p class="card-text">£ 579.00</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div id="gravida" class="tab-pane fade">
@@ -177,37 +147,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <h5 class="card-title">Yleo vestibulum</h5>
                                 <p class="card-text">£ 579.00</p>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="image">
-                                <img class="card-img-top" src="images/shoes-product-4" alt="Card image cap">
-                                <div class="overlay"> 
-                                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="#"><i class="fa fa-search-plus"></i></a>
-                                    <a href="#"><i class="fa fa-heart"></i></a>
-                                    <a href="#"><i class="fa fa-retweet"></i></a>
-                                </div>                               
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Yleo vestibulum</h5>
-                                <p class="card-text">£ 579.00</p>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="image">
-                                <img class="card-img-top" src="images/shoes-product-111" alt="Card image cap">
-                                <div class="overlay"> 
-                                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="#"><i class="fa fa-search-plus"></i></a>
-                                    <a href="#"><i class="fa fa-heart"></i></a>
-                                    <a href="#"><i class="fa fa-retweet"></i></a>
-                                </div>                               
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Yleo vestibulum</h5>
-                                <p class="card-text">£ 579.00</p>
-                            </div>
-                        </div>
+                        </div>             
                     </div>
                 </div>
                 <div id="curabitur" class="tab-pane fade">
@@ -272,40 +212,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <h5 class="card-title">Yleo vestibulum</h5>
                                 <p class="card-text">£ 579.00</p>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="image">
-                                <img class="card-img-top" src="images/shoes-product-22" alt="Card image cap">
-                                <div class="overlay"> 
-                                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="#"><i class="fa fa-search-plus"></i></a>
-                                    <a href="#"><i class="fa fa-heart"></i></a>
-                                    <a href="#"><i class="fa fa-retweet"></i></a>
-                                </div>                               
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Yleo vestibulum</h5>
-                                <p class="card-text">£ 579.00</p>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="image">
-                                <img class="card-img-top" src="images/shoes-product-3" alt="Card image cap">
-                                <div class="overlay"> 
-                                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="#"><i class="fa fa-search-plus"></i></a>
-                                    <a href="#"><i class="fa fa-heart"></i></a>
-                                    <a href="#"><i class="fa fa-retweet"></i></a>
-                                </div>                               
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Yleo vestibulum</h5>
-                                <p class="card-text">£ 579.00</p>
-                            </div>
-                        </div>
+                        </div>              
                     </div>                   
                 </div>
-
             </div>
         </div>
     </div>

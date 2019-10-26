@@ -90,7 +90,7 @@
   margin-bottom: 180px;
 }
 .type-4 .product-custom ul {
-  padding: 0 15px 0 15px;
+  padding: 0 5px 5px 25px;
 }
 .type-4 .product-custom ul li {
   position: relative;
@@ -136,7 +136,7 @@
   bottom: 0;
   background: #fff;
   width: 325px;
-  padding: 0 15px 0 15px;
+  padding: 0 5px 5px 25px;
 }
 .type-4 .sum-cart .btn-custom {
   height: 40px;

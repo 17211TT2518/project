@@ -36,6 +36,10 @@ $less->compileFile('less/16.less', 'css/16.css');
     <script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
 <body>
 <?php include '16-content.php'; ?>
-
+<script>
+ var str = document.getElementsByClassName('title'), 
+  textContent = str.textContent;
+  var res = textContent.substring(0, 4);
+  document.getElementsByClassName("title").innerHTML = res;</script>
 </body>
 </html>

@@ -7,4 +7,9 @@
 //         });
 // });
 
-
+$(document).ready(function(){
+  var str = document.getElementsByClassName('title'), 
+  textContent = str.textContent;
+  var res = textContent.substring(0, 4);
+  document.getElementsByClassName("title").innerHTML = res;
+});
