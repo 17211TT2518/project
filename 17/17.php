@@ -23,11 +23,11 @@ $less->compileFile('less/17.less', 'css/17.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Basic usage demo">
         <meta name="author" content="David Deutsch">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/17.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <?php include $dir_block . '/17-content.php'; ?>
+        <?php include '17-content.php'; ?>
     </body>
 </html>

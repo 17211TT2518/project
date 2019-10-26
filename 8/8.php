@@ -32,6 +32,6 @@ $less->compileFile('less/8.less', 'css/8.css');
 
     </head>
     <body >
-        <?php include $dir_block . '/8-content.php'; ?>
+        <?php include '8-content.php'; ?>
     </body>
 </html>
