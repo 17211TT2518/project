@@ -5,7 +5,7 @@
   outline: none;
 }
 .type-18 .swiper-container {
-  background-color: #1daaa3;
+  background: #f4f4f4;
 }
 .type-18 .swiper-container .swiper-pagination-bullet {
   width: 10px;
@@ -19,7 +19,7 @@
 }
 .type-18 .swiper-container .swiper-pagination-bullet-active {
   color: #fff;
-  background: #73c9c4;
+  background: #4e390c;
 }
 .type-18 .swiper-container .swiper-wrapper .swiper-slide {
   text-align: center;
@@ -37,16 +37,13 @@
   -webkit-align-items: center;
   align-items: center;
 }
-.type-18 .swiper-container .swiper-wrapper .swiper-slide img {
-  padding-left: 50px;
-  width: 650px;
-  height: 450px;
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .picture {
+  padding: 0 55px;
 }
-.type-18 .swiper-container .swiper-wrapper .swiper-slide .text {
-  padding-right: 50px;
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content {
+  padding: 70px 75px 0px 55px;
 }
-.type-18 .swiper-container .swiper-wrapper .swiper-slide .text .lobor {
-  color: #ffffff;
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .lobor {
   margin-top: -5px;
   text-transform: capitalize;
   text-align: center;
@@ -54,19 +51,19 @@
   letter-spacing: 3px;
   font-size: 1.5em;
 }
-.type-18 .swiper-container .swiper-wrapper .swiper-slide .text .varius {
-  color: #b4aeae;
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .varius {
+  color: #807b7b;
   font-size: 1em;
   text-align: center;
   font-family: "Consolas";
 }
-.type-18 .swiper-container .swiper-wrapper .swiper-slide .all-icon {
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .all-icon {
   margin-top: 20px;
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
 }
-.type-18 .swiper-container .swiper-wrapper .swiper-slide .all-icon i {
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .all-icon i {
   font-size: 1.2em;
   color: #807b7b;
   border-radius: 50%;
@@ -76,33 +73,22 @@
   height: 40px;
   margin-left: 5px;
 }
-.type-18 .swiper-container .swiper-wrapper .swiper-slide .all-icon i:hover {
+.type-18 .swiper-container .swiper-wrapper .swiper-slide .content .all-icon i:hover {
   color: #d6cfcf;
   border-radius: 50%;
   background: #aeaeb1;
 }
 .type-18 .swiper-container .swiper-button-next {
-  color: #73c9c4;
+  color: #4e390c;
 }
 .type-18 .swiper-container .swiper-button-prev {
-  color: #73c9c4;
+  color: #4e390c;
 }
-@media screen and (max-width: 1199px) {
-  .type-18 img {
-    padding-left: 90px !important;
-    width: 450px !important;
-    height: 250px !important;
+@media screen and (max-width: 767px) {
+  .type-18 .lobor {
+    font-size: 1.5em !important;
   }
-  .type-18 .text {
-    padding-top: 50px;
-    line-height: 1 !important;
-    padding-right: 90px !important;
-  }
-}
-@media screen and (max-width: 499px) {
-  .type-18 .text {
-    padding-top: 50px;
-    line-height: 1 !important;
-    padding-right: 90px !important;
+  .type-18 .varius {
+    font-size: 1.2em !important;
   }
 }
