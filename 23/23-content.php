@@ -8,6 +8,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-23">
+    <!--container-->
     <div class="container">
         <div class="shop-loop">
             <nav aria-label="breadcrumb">
@@ -71,5 +72,6 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
+    <!--end container-->
 
 </div>
