@@ -4,9 +4,6 @@
   background: #F7F7F7;
   border-bottom: 4px dashed #cccccc;
 }
-.type-7 .content .form-filed {
-  margin-top: 15px;
-}
 .type-7 .content .form-filed .input-icon i {
   position: absolute;
   opacity: .4;
@@ -31,12 +28,14 @@
 }
 .type-7 .content .form-filed input[type="submit"] {
   float: left;
-  background: #000000;
-  padding: 10px 50px;
+  background: #1daaa3;
+  padding: 7.5px 50px;
   color: #ffffff;
   border: none;
-  margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 1.3em;
+}
+.type-7 .content .form-filed input[type="submit"]:hover {
+  background: #47cec7;
 }
 @media (max-width: 990px) {
   .content h1 {

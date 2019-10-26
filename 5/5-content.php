@@ -4,7 +4,7 @@
 		<div class="col-md-7 col-sm-6">
 			
 		</div>
-		<div class="col-md-4 col-sm-6" style="position:relative;left:46px;">
+		<div class="col-md-5 col-sm-6" style="position:relative;left:46px;">
 			<div>
 				<h1 class="lll" style="font-size: 38px;color: #b57b00;text-align: center;">New Collection</h1> <br>
 				<h1 style="font-size: 42px;text-align: center;font-family: 'Concert One', cursive;">Bran New Collection Winter 2019</h1> <br>
@@ -57,7 +57,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12"></div>
 	</div>	
 	</div>
 	

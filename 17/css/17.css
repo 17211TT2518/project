@@ -22,6 +22,12 @@
   padding: 20px;
   margin-top: 20px;
 }
+.card a {
+  text-decoration: none;
+}
+.card a:hover {
+  color: #333;
+}
 .card .theimg {
   width: 50px;
   height: 50px;
