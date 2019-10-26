@@ -9,31 +9,19 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-15">
     <div class="container collas">
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <!-- BRAND -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#alignment-example" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <!-- COLLAPSIBLE NAVBAR -->
-                <div class="collapse navbar-collapse" id="alignment-example">
-
-                    <!-- Links -->
-                    <ul class="nav navbar-nav">
-                        <li> <a href="#" id="des">Description</a></li>
-                        <li> <a href="#" id="rev">Reviews(0)</a></li>
-                        <li> <a href="#" id="ship">Shipping & Delivery</a></li>
-                    </ul>
-                </div>
+        <div class="row">
+            <div class="col-md-4 col-ms-12">
+            <a href="#" id="des">Description</a>
             </div>
-        </nav>
-
+            <div class="col-md-4 col-ms-12">
+            <a href="#" id="rev">Reviews(0)</a>
+            </div>
+            <div class="col-md-4 col-ms-12">
+            <a href="#" id="ship">Shipping & Delivery</a>
+            </div>
+        </div>
+       
+      
         <!-- description -->
 
         <div id="footwear" class="style-all">
@@ -161,10 +149,10 @@ $url_path = str_replace('\\', '/', $url_path);
         <!-- shipping -->
         <div id="deliver" class="style-ship">
             <div class="row">
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-ms-12">
                     <img class="img-responsive" src="./images/shipping.png" alt="responsive">
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 col-ms-12">
                     <p class="comm">Vestibulum curae torquent diam diam commodo parturient penatibus nunc dui adipiscing
                         convallis bulum parturient suspendisse parturient a.Parturient in parturient scelerisque nibh lectus quam a natoque adipiscing a vestibulum hendrerit et pharetra fames.Consequat net
                     </p>

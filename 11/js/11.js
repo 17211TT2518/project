@@ -1,10 +1,4 @@
 $(document).ready(function() {
-    var swiper = new Swiper('.swiper-container', {
-        pagination: {
-            el: '.swiper-pagination',
-            dynamicBullets: true,
-        },
-    });
 
     function wcqib_refresh_quantity_increments() {
         jQuery("div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)").each(function(a, b) {
@@ -30,3 +24,9 @@ $(document).ready(function() {
     });
 
 })
+var swiper = new Swiper('.swiper-container', {
+    pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+    },
+});
