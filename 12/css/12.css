@@ -1,8 +1,42 @@
 .type-12 {
   margin-top: 30px;
 }
+.type-12 *:focus {
+  outline: none;
+}
 .type-12 img {
   width: 100%;
+}
+.type-12 .swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-12 .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.type-12 .gallery-top {
+  height: 80%;
+  width: 100%;
+}
+.type-12 .gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.type-12 .gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.type-12 .gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.type-12 .swiper-button-next.swiper-button-white,
+.type-12 .swiper-button-prev.swiper-button-white {
+  --swiper-navigation-color: #75451f;
 }
 .type-12 .pro-name h4 {
   font-family: 'Lora', serif;
@@ -10,8 +44,9 @@
   font-size: 38px;
 }
 .type-12 .price {
-  margin-top: 20px;
+  margin: 20px 0;
   color: #179a94;
+  font-size: 28px;
 }
 .type-12 .detail {
   color: #4C4C4C;
@@ -28,6 +63,7 @@
   text-align: center;
   background-color: transparent;
   border: 1px solid #efefef;
+  margin: 0 -4px;
 }
 .type-12 .quantity .buttons_added {
   text-align: left;
@@ -76,28 +112,57 @@
   background: #000000;
   color: #ffffff;
   border: none;
-  padding: 7px 7px;
+  padding: 9px 7px;
   margin-left: 23px;
+  font-weight: bold;
+  width: 140px;
 }
 .type-12 .addCart .btn-cart:hover {
   background: #333;
 }
+.type-12 .wishlist {
+  display: inline-block;
+  margin-left: 10px;
+}
+.type-12 .wishlist a {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4E4E4E;
+  text-decoration: none;
+}
+.type-12 .wishlist a:hover {
+  color: #1daaa3;
+}
+.type-12 .compare {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.type-12 .compare a {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4E4E4E;
+  text-decoration: none;
+}
+.type-12 .compare a:hover {
+  color: #1daaa3;
+}
 .type-12 .category {
-  font-weight: 500;
   color: #000;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  border-top: 1px solid #e8e8e8;
+  margin: 30px 0;
 }
 .type-12 .category a {
   font-weight: 300;
   color: #202020;
+}
+.type-12 .category a:hover {
+  text-decoration: none;
 }
 .type-12 .share {
   font-weight: 500;
   color: #000;
   display: block;
   text-align: left;
+  margin: 10px 0;
 }
 .type-12 .share a {
   color: #b1abab;
@@ -118,8 +183,9 @@
   color: #676767;
 }
 .type-12 .share ul li a:hover {
+  text-decoration: none;
   padding: 0 5px;
-  color: #000;
+  color: #1daaa3;
 }
 @media (min-width: 576px) {
   .modal-dialog {

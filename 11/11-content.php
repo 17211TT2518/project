@@ -17,13 +17,25 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="modal-content">
                     <div class="row">
                         <div class="col-md-6 item-left">
-                            <img src="./images/slide-15-s.png" alt="" class="img-responsive">
+                            <!-- Swiper -->
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="./images/slide-15-s.png" alt=""
+                                            class="img-responsive"></div>
+                                    <div class="swiper-slide"><img src="./images/slide-10-s.png" alt=""
+                                            class="img-responsive"></div>
+                                    <div class="swiper-slide"><img src="./images/slide-7-s.png" alt=""
+                                            class="img-responsive"></div>
+                                </div>
+                                <!-- Add Pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+
                         </div>
                         <div class="col-md-6">
                             <!-- Modal Header -->
                             <div class="modal-header">
                                 <h4 class="modal-title">Giày thể thao</h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
                             </div>
                             <!-- Modal body -->
                             <div class="modal-body">
@@ -43,7 +55,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h5>Category:<span>Boots</span></h5>
                                 </div>
                                 <div class="share">
-                                    <h5>Share:<a href="#"><i class="fa fa-facebook-f"></i></a><a href="#"><i class="fa fa-envelope"></i></a></h5> 
+                                    <h5>Share:<a href="#"><i class="fa fa-facebook-f"></i></a><a href="#"><i
+                                                class="fa fa-envelope"></i></a></h5>
                                 </div>
                             </div>
                         </div>

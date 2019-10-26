@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="filter-button">
                 <div id="demo" class="collapse drop-collape">
                     <div class="row filter-inner">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <h5 class="widget-title">SORT BY</h5>
                             <div class="line-botom"></div>
                             <ul>
@@ -31,7 +31,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <li><a href="#">Average rating</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <h5 class="widget-title">PRICE FILTER</h5>
                             <div class="line-botom"></div>
                             <ul>
@@ -41,7 +41,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <li><a href="#">$300.0 - $400.0</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <h5 class="widget-title">FILTER BY COLOR</h5>
                             <div class="line-botom"></div>
                             <ul>
@@ -53,7 +53,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <li><a href="#"><span class="filter-blue"></span>Blue</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <h5 class="widget-title">SORT BY</h5>
                             <div class="line-botom"></div>
                             <ul>

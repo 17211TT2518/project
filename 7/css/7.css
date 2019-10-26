@@ -1,20 +1,20 @@
-.type-7 .wp-content {
+.type-7 .content {
   border-top: 4px dashed #cccccc;
   padding: 50px 0;
   background: #F7F7F7;
   border-bottom: 4px dashed #cccccc;
 }
-.type-7 .wp-content .form-filed {
+.type-7 .content .form-filed {
   margin-top: 15px;
 }
-.type-7 .wp-content .form-filed .input-icon i {
+.type-7 .content .form-filed .input-icon i {
   position: absolute;
   opacity: .4;
 }
-.type-7 .wp-content .form-filed .input-icon .icon {
+.type-7 .content .form-filed .input-icon .icon {
   padding-top: 10px;
 }
-.type-7 .wp-content .form-filed .input-icon input[type="email"] {
+.type-7 .content .form-filed .input-icon input[type="email"] {
   font-family: FontAwesome;
   font-size: 25px;
   vertical-align: middle;
@@ -29,34 +29,35 @@
   outline: none;
   float: left;
 }
-.type-7 .wp-content .form-filed input[type="submit"] {
+.type-7 .content .form-filed input[type="submit"] {
   float: left;
   background: #000000;
   padding: 10px 50px;
   color: #ffffff;
   border: none;
   margin-bottom: 10px;
+  font-size: 15px;
 }
 @media (max-width: 990px) {
-  .wp-content h1 {
+  .content h1 {
     text-align: center;
   }
-  .wp-content .form-filed {
+  .content .form-filed {
     margin-left: 75px;
   }
 }
 @media (max-width: 676px) {
-  .wp-content .form-filed input[type="submit"] {
+  .content .form-filed input[type="submit"] {
     margin-left: 75px;
     margin-top: 40px;
   }
 }
 @media (max-width: 675px) {
-  .wp-content h1 {
+  .content h1 {
     margin-left: 52px;
     margin-bottom: 50px;
   }
-  .wp-content .form-filed input[type="submit"] {
+  .content .form-filed input[type="submit"] {
     margin-left: 106px;
     margin-top: 20px;
   }

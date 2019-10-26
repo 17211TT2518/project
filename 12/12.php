@@ -21,21 +21,24 @@
 <head>
     <title>12</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
-	<link href="<?php echo $url_path ?>/css/12.css" rel="stylesheet" type="text/css" />
-	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-
-	<script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/swiper.min.css"/>
+<link href="<?php echo $url_path ?>/css/12.css" rel="stylesheet" type="text/css" />
+	
+    <script src="js/swiper.min.js"></script>
 	<script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+	<script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+
 	<script src="<?php echo $url_path ?>/js/popper.min.js"></script>
 	<script src="<?php echo $url_path ?>/js/12.js"></script>
+
+
 </head>
 
 <body>
     <?php include './12-content.php'; ?>
-
 </body>
 
 </html>

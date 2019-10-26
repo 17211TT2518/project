@@ -7,7 +7,11 @@ $(document).ready(function (){
   img.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.sw1', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -22,7 +26,11 @@ $(document).ready(function (){
   shoes.onclick = function(){
     modalRight.style.display = "block";
     modalShoes.src = this.src;
-    var swiper = new Swiper('.swiper-container', {
+    var swiper2 = new Swiper('.sw2', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

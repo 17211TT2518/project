@@ -9,31 +9,19 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-15">
     <div class="container collas">
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <!-- BRAND -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#alignment-example" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <!-- COLLAPSIBLE NAVBAR -->
-                <div class="collapse navbar-collapse" id="alignment-example">
-
-                    <!-- Links -->
-                    <ul class="nav navbar-nav">
-                        <li> <a href="#" id="des">Description</a></li>
-                        <li> <a href="#" id="rev">Reviews(0)</a></li>
-                        <li> <a href="#" id="ship">Shipping & Delivery</a></li>
-                    </ul>
-                </div>
+        <div class="row">
+            <div class="col-md-4 col-ms-12">
+            <a href="#" id="des">Description</a>
             </div>
-        </nav>
-
+            <div class="col-md-4 col-ms-12">
+            <a href="#" id="rev">Reviews(0)</a>
+            </div>
+            <div class="col-md-4 col-ms-12">
+            <a href="#" id="ship">Shipping & Delivery</a>
+            </div>
+        </div>
+       
+      
         <!-- description -->
 
         <div id="footwear" class="style-all">
@@ -118,7 +106,19 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-6 condimen">
                     <h4 class="find">Be the first to reviews "Yparturient condimen"</h4>
                     <p class="line">Your email address will not be published. Required fields are marked</p>
-                    <p class="line">Your rating:&nbsp;&nbsp;<i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p>
+                    <div class="rate">
+                        <p class="line-two">Your rating:&nbsp;&nbsp;</p>
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                    </div>
                     <p class="line">Your reviews <span>*</span></p>
                     <div class="form-group">
                         <textarea class="form-control" id="Textarea" rows="6"></textarea>
@@ -149,10 +149,10 @@ $url_path = str_replace('\\', '/', $url_path);
         <!-- shipping -->
         <div id="deliver" class="style-ship">
             <div class="row">
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-ms-12">
                     <img class="img-responsive" src="./images/shipping.png" alt="responsive">
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 col-ms-12">
                     <p class="comm">Vestibulum curae torquent diam diam commodo parturient penatibus nunc dui adipiscing
                         convallis bulum parturient suspendisse parturient a.Parturient in parturient scelerisque nibh lectus quam a natoque adipiscing a vestibulum hendrerit et pharetra fames.Consequat net
                     </p>

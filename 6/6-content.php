@@ -10,7 +10,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-6">
     <div class="container">
         <div class="row all-content">
-            <div class="col-md-6 ">
+            <div class="col-md-6 col-sm-12 write">
                 <h3 class="example">Subtitle text example</h3>
                 <h1 class="shoes">why our shoes ?</h1>
                 <p class="content">Cursus mollis justo dis a consectetur libero ac mollis justo quam fames.
@@ -21,12 +21,12 @@ $url_path = str_replace('\\', '/', $url_path);
                     <button type="button" class="btn">read more</button>
                 </div>
             </div>
-            <div class="col-md-6 images-two">
+            <div class="col-md-6 col-sm-12 images-two">
                 <div class="row">
-                    <div class="col-md-6 sh-left">
+                    <div class="col-md-6 col-sm-6 sh-left">
                         <img id="myImg" src="./images/shoes-story-1.png" class="img-responsive shoes-left" alt="responsive">
                     </div>
-                    <div class="col-md-6 sh-right">
+                    <div class="col-md-6 col-sm-6 sh-right">
                         <img id="myShoes" src="./images/shoes-story-2.png" class="img-responsive shoes-right" alt="responsive">
                     </div>
                 </div>
@@ -39,7 +39,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
             <!-- Modal Content (The Image) -->
             <img class="modal-content">
-            <div class="swiper-container"  id="img01">
+            <div class="swiper-container sw1"  id="img01">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                     <img  src="./images/shoes-story-1.png" class="img-responsive shoes-left" alt="responsive">
@@ -51,6 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!-- Add Arrows -->
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
         <div id="myModal-2" class="modal">
@@ -59,7 +60,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
             <!-- Modal Content (The Image) -->
             <img class="modal-content">
-            <div class="swiper-container" id="img02">
+            <div class="swiper-container sw2" id="img02">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                     <img  src="./images/shoes-story-2.png" class="img-responsive shoes-right" alt="responsive">
@@ -70,6 +71,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
         </div>
     </div>
 
