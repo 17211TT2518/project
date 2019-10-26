@@ -25,6 +25,9 @@
   -webkit-align-items: center;
   align-items: center;
 }
+.type-2 .banner .swiper-container .swiper-pagination-bullet-active {
+  background: #B57B00;
+}
 .type-2 .banner .swiper-container .text .fadeInRight {
   animation: fadeInRight 1s;
 }
