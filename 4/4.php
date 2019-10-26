@@ -6,13 +6,15 @@
     preg_match_all($pattern_uri, __DIR__, $matches);
     $url_path = $url_host . $matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
+    $dir_url = dirname($_SERVER['SCRIPT_FILENAME']);
 
     if (!class_exists('lessc')) {
-        $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
-        require_once($dir_block . '/libs/lessc.inc.php');
+        require_once($dir_url . '/libs/lessc.inc.php');
     }
+    
     $less = new lessc;
-    $less->compileFile('less/4.less', 'css/4.css');
+    $less->compileFile($dir_url.'/less/4.less', $dir_url.'/css/4.css');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
