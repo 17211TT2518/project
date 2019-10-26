@@ -23,7 +23,7 @@
         <link href="<?php echo $url_path ?>/css/bootstrap-v4.0.0.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/4.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/4-script.js"></script>
+        <script src="<?php echo $url_path ?>/js/4.js"></script>
     </head>
     <body>
         <?php include '4-content.php'; ?>
