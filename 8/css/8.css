@@ -1,12 +1,17 @@
-.container {
+.type-8 .maga {
+  font-size: 2.5em;
+  color: #B57B00;
   text-align: center;
-  margin-top: 15px;
+  font-weight: bold;
 }
-.st {
+.type-8 a {
+  text-decoration: none;
+}
+.type-8 .st {
   font-size: 17px;
   color: black;
 }
-.t1 {
+.type-8 .t1 {
   top: 60px;
   width: 50px;
   height: 50px;
@@ -15,7 +20,7 @@
   color: white;
   position: absolute;
 }
-.t2 {
+.type-8 .t2 {
   top: 60px;
   width: 50px;
   height: 50px;
@@ -24,7 +29,7 @@
   position: absolute;
   left: 580px;
 }
-.t3 {
+.type-8 .t3 {
   top: 60px;
   width: 50px;
   height: 50px;
@@ -33,22 +38,23 @@
   position: absolute;
   left: 959px;
 }
-.hjhj {
+.type-8 .hjhj {
   top: -100px;
 }
-.pp {
+.type-8 .pp {
   top: 100px;
 }
-.hnhn {
+.type-8 .hnhn {
   position: absolute;
   background: #fff;
   height: 55px;
   width: 55px;
   top: 10px;
   left: 15px;
-  color: #a9ffa4;
+  color: #4bc4ba;
 }
-.hnhn span {
+.type-8 .hnhn span {
   text-align: center;
   display: block;
+  padding-top: 5px;
 }
