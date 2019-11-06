@@ -7,8 +7,7 @@
 		<div class="col-md-4 col-sm-6" style="position:relative;left:46px;">
 			<div>
 				<h1 class="lll" style="font-size: 38px;color: #b57b00;text-align: center;">New Collection</h1> <br>
-				<h1 style="font-size: 42px;text-align: center;font-family: 'Concert One', cursive;">Bran New Collection Winter 2019</h1> <br>
-				<b style="text-align: center;font-family:Roboto;font-weight:400;font-style:normal"></b>
+				<h1 style="font-size: 35px;text-align: center;font-family: 'Concert One', cursive;">Bran New Collection Winter 2019</h1> <br>
 			</div>
 			<div class="products">
 				<div class="swiper-button-next" style="top: 370px;"></div>

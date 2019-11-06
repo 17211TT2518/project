@@ -22,12 +22,13 @@
 .type-5 .plpl {
   position: relative;
   left: 115px;
-  background-color: #b57b00;
+  background-color: #B57B00;
   border-radius: 40px;
-  border-color: #b57b00;
-  width: 142px;
-  height: 50px;
+  border-color: #B57B00;
+  padding: 5px 20px;
   box-shadow: none;
+  font-size: 1.5em;
+  margin-top: 25px;
 }
 .type-5 .overlay {
   position: absolute;
@@ -59,4 +60,10 @@
 }
 .type-5 i:hover {
   color: #534949;
+}
+.type-5 .swiper-button-next {
+  color: #B57B00;
+}
+.type-5 .swiper-button-prev {
+  color: #B57B00;
 }
